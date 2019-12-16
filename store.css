@@ -1,0 +1,106 @@
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    background-color: #C4F0F8;
+    overflow: hidden;
+}
+
+.back-home {
+    position: absolute;
+    top: 8.5vh;
+    left: 7vw;
+}
+
+.button-nav {
+    position: absolute;
+    height: 60px;
+    width: 190px;
+    background-color: #fff;
+    border: 3px solid #95B0B5;
+    border-radius: 50px;
+    top: 8vh;
+    left: 9vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-icon {
+    position: absolute;
+    right: 7vw;
+}
+
+.flower-icon {
+    position: absolute;
+}
+
+.cart-icon {
+    position: absolute;
+    left: 6.8vw;
+}
+
+.store-subscribe-btn {
+    position: absolute;
+    height: 50px;
+    width: 160px;
+    background-color: #FFE2D0;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Bree Serif', serif;
+    font-size: 1.3em;
+    right: 9vw;
+    top: 8vh;
+
+
+}
+
+.main-title {
+    position: absolute;
+    color: #8D8D8D;
+    font-family: 'Bree Serif', serif;
+    font-size: 10.5em;
+    left: 17.5vw;
+    top: 4vh;
+
+}
+
+.main-title-store {
+    position: absolute;
+    font-family: 'Bree Serif', serif;
+    font-size: 10.5em;
+    top: 18vh;
+    right: 23vw;
+    color: #B9B9B9;
+}
+
+.title-box {
+    position: absolute;
+    left: 30vw;
+    top: 256px;
+    top: 25.5vh;
+
+}
+
+.store-sub-blurb {
+    position: absolute;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #FFE2D0;
+    top: 60vh;
+}
+
+.sub-blurb-text {
+    font-size: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+
+}
