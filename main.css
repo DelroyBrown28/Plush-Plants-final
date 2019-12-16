@@ -1,0 +1,297 @@
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    overflow: hidden;
+}
+
+img.top-wave {
+    position: absolute;
+}
+
+img.logo {
+    position: absolute;
+    left: 8.5vw;
+    top: 5.5vh;
+}
+
+div.subscribe-button {
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    background-color: #95B0B5;
+    border-radius: 10px;
+    top: 8vh;
+    left: 13vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-timing-function: ease-in-out;
+    animation-duration: 5s;
+    color: #fff;
+    font-size: 1.3em;
+    font-family: 'Bree Serif', serif;
+
+
+
+}
+
+.subscribe-button:hover,
+.sign-up-button:hover,
+.store-button:hover {
+    position: absolute;
+    cursor: pointer;
+    animation-name: hover;
+
+
+
+}
+
+@keyframes hover {
+    0% {
+        transform: rotateX(0deg);
+    }
+
+    2% {
+        transform: rotateX(22deg);
+    }
+
+    4% {
+        transform: rotateX(0deg);
+    }
+
+    6% {
+        transform: rotateX(22deg);
+    }
+
+    8% {
+        transform: rotateX(0deg);
+    }
+
+    10% {
+        transform: rotateX(22deg);
+
+        12% {
+            transform: rotateX(0deg);
+        }
+    }
+
+
+
+}
+
+
+.landing-wrapper {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-blurb {
+    position: absolute;
+    font-family: 'Bree Serif', serif;
+    font-size: 2.8em;
+    text-align: center;
+    top: 36vh;
+    line-height: 53px;
+
+}
+
+.sub-blurb {
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    top: 52vh;
+
+}
+
+div.sign-up-button {
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    background-color: #95B0B5;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 63vh;
+    left: 40.5vw;
+    animation-timing-function: ease-in-out;
+    animation-duration: 5s;
+    color: #fff;
+    font-size: 1.3em;
+    font-family: 'Bree Serif', serif;
+
+}
+
+div.store-button {
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    background-color: #FFE2D0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 63vh;
+    left: 50vw;
+    animation-timing-function: ease-in-out;
+    animation-duration: 5s;
+    color: #fff;
+    font-size: 1.3em;
+    font-family: 'Bree Serif', serif;
+
+}
+
+
+.flower-icon {
+    position: absolute;
+    top: 28vh;
+    right: 48.5vw;
+    animation-timing-function: ease-in-out;
+    animation-duration: 0.7s;
+
+}
+
+.plant-care-text {
+    position: absolute;
+    height: 28px;
+    width: 95px;
+    background-color: #FFE2D0;
+    border-radius: 14px;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    top: 37vh;
+    right: 47.9vw;
+
+}
+
+.contact-icon {
+    position: absolute;
+    top: 28vh;
+    left: 40vw;
+    animation-timing-function: ease-in-out;
+    animation-duration: 0.7s;
+
+}
+
+.contact-text {
+    position: absolute;
+    height: 28px;
+    width: 95px;
+    background-color: #95B0B5;
+    border-radius: 14px;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    top: 37vh;
+    right: 55.6vw;
+
+}
+
+
+.store-icon {
+    position: absolute;
+    top: 28vh;
+    right: 41vw;
+    animation-timing-function: ease-in-out;
+    animation-duration: 0.7s;
+
+}
+
+.store-text {
+    position: absolute;
+    height: 28px;
+    width: 95px;
+    background-color: #95B0B5;
+    border-radius: 14px;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    top: 37vh;
+    right: 40.8vw;
+
+}
+
+.contact-icon:hover,
+.store-icon:hover,
+.flower-icon:hover {
+    animation-name: spin;
+    cursor: pointer;
+
+}
+
+@keyframes spin {
+    0% {
+        transform: rotateZ(0deg);
+    }
+
+    10% {
+        transform: rotateZ(1deg);
+    }
+
+    20% {
+        transform: rotateZ(-1deg);
+    }
+
+    30% {
+        transform: rotateZ(2deg);
+    }
+
+    40% {
+        transform: rotateZ(-2deg);
+    }
+
+    50% {
+        transform: rotateZ(3deg);
+    }
+
+    60% {
+        transform: rotateZ(-3deg);
+    }
+
+    70% {
+        transform: rotateZ(4deg);
+    }
+
+    80% {
+        transform: rotateZ(-4deg);
+    }
+
+    90% {
+        transform: rotateZ(5deg);
+    }
+
+    100% {
+        transform: rotateZ(0deg);
+    }
+
+
+}
+
+img.bottom-flowers {
+    position: absolute;
+    top: 70vh;
+    right: 81vw;
+}
+
+img.lady-blob {
+    position: absolute;
+    left: 60vw;
+    top: 40vh;
+}
+
+a {
+    text-decoration: none;
+}
