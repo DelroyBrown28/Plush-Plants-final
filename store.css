@@ -1,0 +1,175 @@
+/*---------------------------------- STORE */
+
+html,
+body,
+.store-wrapper {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-X: hidden;
+}
+
+
+div.store-wrapper {
+    height: 100%;
+    width: 100%;
+}
+
+img.topwave-1,
+img.topwave-2 {
+    position: absolute;
+}
+
+img.topwave-2 {
+    top: 0%;
+}
+
+img.store-logo {
+    position: absolute;
+    left: 5%;
+    top: 6%;
+}
+
+div.store-signup-button {
+    position: absolute;
+    height: 45px;
+    width: 160px;
+    background-color: #F7DAAA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    top: 6.5%;
+    left: 21%;
+    transition: 0.5s;
+
+    color: #fff;
+    font-family: 'Bree Serif', serif;
+    font-size: 20px;
+
+}
+
+div.store-signup-button:hover {
+    box-shadow: 7px 9px 3px #00000029;
+    cursor: pointer;
+
+}
+
+
+ul.store-menu {
+    position: absolute;
+    z-index: 1;
+    right: 14.5%;
+    top: 8.5%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+
+img.home-img {
+    
+}
+
+.li-home,
+.li-care,
+.li-locate {
+    display: inline-block;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+img.shop-plant-1,
+img.shop-plant-2,
+img.shop-plant-3,
+img.shop-plant-4,
+img.shop-plant-5,
+img.shop-plant-6,
+img.shop-plant-7,
+img.shop-plant-8,
+img.shop-plant-9,
+img.shop-plant-10,
+img.shop-plant-11,
+img.shop-plant-12,
+img.shop-plant-13,
+img.shop-plant-14,
+img.shop-plant-15,
+img.shop-plant-16 {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+
+}
+
+img.shop-plant-1,
+img.shop-plant-2,
+img.shop-plant-3,
+img.shop-plant-4 {
+    top: 61%;
+}
+
+img.shop-plant-1,
+img.shop-plant-5,
+img.shop-plant-9,
+img.shop-plant-13 {
+    left: 14.5%;
+}
+
+img.shop-plant-2,
+img.shop-plant-6,
+img.shop-plant-10,
+img.shop-plant-14 {
+    left: 33%;
+
+}
+
+img.shop-plant-3,
+img.shop-plant-7,
+img.shop-plant-11,
+img.shop-plant-15 {
+    right: 33%;
+}
+
+img.shop-plant-4,
+img.shop-plant-8,
+img.shop-plant-12,
+img.shop-plant-16 {
+    right: 14.5%;
+}
+
+img.shop-plant-5,
+img.shop-plant-6,
+img.shop-plant-7,
+img.shop-plant-8 {
+    top: 110%;
+}
+
+img.shop-plant-9,
+img.shop-plant-10,
+img.shop-plant-11,
+img.shop-plant-12 {
+    top: 160%;
+}
+
+img.shop-plant-13,
+img.shop-plant-14,
+img.shop-plant-15,
+img.shop-plant-16 {
+    top: 210%;
+}
+
+img.footer-wave {
+    position: absolute;
+    top: 2447.8px;
+
+}
+
+form {
+    position: absolute;
+}
+
+
+/*---------------------------------- STORE */
