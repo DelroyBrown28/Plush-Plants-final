@@ -154,7 +154,7 @@ a {
     cursor: pointer;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     background-color: #F9F871;
-    
+
 
 }
 
@@ -260,7 +260,7 @@ a {
     font-size: 2em;
     color: #F9F871;
     transition: 0.2s;
-    
+
 
 
 }
@@ -303,51 +303,15 @@ a {
 
 }
 
-/*------PLANT 1------*/
-.shop-plant-1 {
-    position: relative;
-    padding-right: 80px;
-    height: 405px;
-    width: 299px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.all-plant-pics {
+    position: absolute;
+    top: 0;
+    border: 7px solid #A1ED85;
     border-radius: 15px;
-
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
-.plant-title-1 {
-    position: absolute;
-    bottom: 34px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.2em;
-    background-color: #F9E9DB;
-
-}
-
-.price-gbp-1 {
-    position: absolute;
-    font-size: 20px;
-    bottom: 26px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: lighter;
-    background-color: #F9E9DB;
-
-}
-
-.price-usd-1 {
-    position: absolute;
-    font-size: 18px;
-    color: rgb(94, 94, 94);
-    bottom: 3px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: normal;
-    background-color: #F9E9DB;
-
-
-}
-
-.basket-box1 {
+.basket-box {
     position: absolute;
     height: 42px;
     width: 62px;
@@ -360,46 +324,54 @@ a {
     bottom: 97px;
     left: 0px;
 
-
 }
 
-.plantpic1 {
-    position: absolute;
-    top: 0;
-    border-bottom: 5px solid #A1ED85;
-    border-top: 5px solid #A1ED85;
-    border-radius: 15px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-
-}
-
-/*------PLANT 1------*/
-
-/*------PLANT 2------*/
-
-.shop-plant-2 {
+.shop-plant-1,
+.shop-plant-2,
+.shop-plant-3,
+.shop-plant-4,
+.shop-plant-5,
+.shop-plant-6,
+.shop-plant-7,
+.shop-plant-8,
+.shop-plant-9,
+.shop-plant-10,
+.shop-plant-11,
+.shop-plant-12,
+.shop-plant-13,
+.shop-plant-14,
+.shop-plant-15,
+.shop-plant-16 {
     position: relative;
-    padding-right: 80px;
     height: 405px;
     width: 299px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 15px;
+    padding-right: 80px;
+
 
 }
 
-.plant-title-2 {
+.shop-plant-4,
+.shop-plant-8,
+.shop-plant-12,
+.shop-plant-16 {
+    padding-right: 0px;
+
+}
+
+.plant-title {
     position: absolute;
     bottom: 34px;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.2em;
     background-color: #F9E9DB;
 
-
 }
 
-.price-gbp-2 {
+.price-gbp {
     position: absolute;
     font-size: 20px;
     bottom: 26px;
@@ -409,7 +381,7 @@ a {
 
 }
 
-.price-usd-2 {
+.price-usd {
     position: absolute;
     font-size: 18px;
     color: rgb(94, 94, 94);
@@ -417,30 +389,6 @@ a {
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
     background-color: #F9E9DB;
-
-}
-
-.basket-box2 {
-    position: absolute;
-    height: 42px;
-    width: 62px;
-    background-color: #F9E9DB;
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-bottom-left-radius: 15px;
-    bottom: 97px;
-    left: -4px;
-
-}
-
-.plantpic2 {
-    position: absolute;
-    top: 0;
-    border: 5px solid #F9E9DB;
-    border-radius: 15px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 
 }
 
@@ -454,149 +402,6 @@ a {
 
 }
 
-/*------PLANT 2------*/
-
-/*------PLANT 3------*/
-
-.shop-plant-3 {
-    position: relative;
-    padding-right: 80px;
-    height: 405px;
-    width: 299px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 15px;
-
-}
-
-.plant-title-3 {
-    position: absolute;
-    bottom: 34px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.2em;
-    background-color: #F9E9DB;
-
-
-}
-
-.price-gbp-3 {
-    position: absolute;
-    font-size: 20px;
-    bottom: 26px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: lighter;
-    background-color: #F9E9DB;
-
-}
-
-.price-usd-3 {
-    position: absolute;
-    font-size: 18px;
-    color: rgb(94, 94, 94);
-    bottom: 3px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: normal;
-    background-color: #F9E9DB;
-
-}
-
-.basket-box3 {
-    position: absolute;
-    height: 42px;
-    width: 62px;
-    background-color: #F9E9DB;
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-bottom-left-radius: 15px;
-    bottom: 97px;
-    left: -4px;
-
-}
-
-.plantpic3 {
-    position: absolute;
-    top: 0;
-    border: 5px solid #F9E9DB;
-    border-radius: 15px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-
-}
-
-/*------PLANT 3------*/
-
-/*------PLANT 4------*/
-
-.shop-plant-4 {
-    position: relative;
-    height: 405px;
-    width: 299px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 15px;
-
-}
-
-.plant-title-4 {
-    position: absolute;
-    bottom: 34px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.2em;
-    background-color: #F9E9DB;
-
-
-}
-
-.price-gbp-4 {
-    position: absolute;
-    font-size: 20px;
-    bottom: 26px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: lighter;
-    background-color: #F9E9DB;
-
-}
-
-.price-usd-4 {
-    position: absolute;
-    font-size: 18px;
-    color: rgb(94, 94, 94);
-    bottom: 3px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: normal;
-    background-color: #F9E9DB;
-
-}
-
-.basket-box4 {
-    position: absolute;
-    height: 42px;
-    width: 62px;
-    background-color: #E7FEFF;
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-bottom-left-radius: 15px;
-    bottom: 97px;
-    left: -4px;
-
-}
-
-.plantpic4 {
-    position: absolute;
-    top: 0;
-    border: 5px solid #E7FEFF;
-    border-radius: 15px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-
-}
-
-/*------PLANT 4------*/
-
 .plantrow2-wrapper {
     position: relative;
     display: block;
@@ -608,288 +413,6 @@ a {
 
 }
 
-/*------PLANT 5------*/
-
-.shop-plant-5 {
-    position: relative;
-    padding-right: 80px;
-    height: 405px;
-    width: 299px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 15px;
-
-}
-
-.plant-title-5 {
-    position: absolute;
-    bottom: 34px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.2em;
-    background-color: #F9E9DB;
-
-
-}
-
-.price-gbp-5 {
-    position: absolute;
-    font-size: 20px;
-    bottom: 26px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: lighter;
-    background-color: #F9E9DB;
-
-}
-
-.price-usd-5 {
-    position: absolute;
-    font-size: 18px;
-    color: rgb(94, 94, 94);
-    bottom: 3px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: normal;
-    background-color: #F9E9DB;
-
-}
-
-.basket-box5 {
-    position: absolute;
-    height: 42px;
-    width: 62px;
-    background-color: #E7FEFF;
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-bottom-left-radius: 15px;
-    bottom: 97px;
-    left: -4px;
-
-}
-
-.plantpic5 {
-    position: absolute;
-    top: 0;
-    border: 5px solid #E7FEFF;
-    border-radius: 15px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-
-}
-
-/*------PLANT 5------*/
-
-/*------PLANT 6------*/
-
-.shop-plant-6 {
-    position: relative;
-    padding-right: 80px;
-    height: 405px;
-    width: 299px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 15px;
-
-}
-
-.plant-title-6 {
-    position: absolute;
-    bottom: 34px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.2em;
-    background-color: #F9E9DB;
-
-
-}
-
-.price-gbp-6 {
-    position: absolute;
-    font-size: 20px;
-    bottom: 26px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: lighter;
-    background-color: #F9E9DB;
-
-}
-
-.price-usd-6 {
-    position: absolute;
-    font-size: 18px;
-    color: rgb(94, 94, 94);
-    bottom: 3px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: normal;
-    background-color: #F9E9DB;
-
-}
-
-.basket-box6 {
-    position: absolute;
-    height: 42px;
-    width: 62px;
-    background-color: #F9E9DB;
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-bottom-left-radius: 15px;
-    bottom: 97px;
-    left: -4px;
-
-}
-
-.plantpic6 {
-    position: absolute;
-    top: 0;
-    border: 5px solid #F9E9DB;
-    border-radius: 15px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-
-}
-
-/*------PLANT 6------*/
-
-/*------PLANT 7------*/
-
-.shop-plant-7 {
-    position: relative;
-    padding-right: 80px;
-    height: 405px;
-    width: 299px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 15px;
-
-}
-
-.plant-title-7 {
-    position: absolute;
-    bottom: 34px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.2em;
-    background-color: #F9E9DB;
-
-
-}
-
-.price-gbp-7 {
-    position: absolute;
-    font-size: 20px;
-    bottom: 26px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: lighter;
-    background-color: #F9E9DB;
-
-}
-
-.price-usd-7 {
-    position: absolute;
-    font-size: 18px;
-    color: rgb(94, 94, 94);
-    bottom: 3px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: normal;
-    background-color: #F9E9DB;
-
-}
-
-.basket-box7 {
-    position: absolute;
-    height: 42px;
-    width: 62px;
-    background-color: #F9E9DB;
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-bottom-left-radius: 15px;
-    bottom: 97px;
-    left: -4px;
-
-}
-
-.plantpic7 {
-    position: absolute;
-    top: 0;
-    border: 5px solid #F9E9DB;
-    border-radius: 15px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-
-}
-
-/*------PLANT 7------*/
-
-/*------PLANT 8------*/
-
-.shop-plant-8 {
-    position: relative;
-    height: 405px;
-    width: 299px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 15px;
-
-}
-
-.plant-title-8 {
-    position: absolute;
-    bottom: 34px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.2em;
-    background-color: #F9E9DB;
-
-
-}
-
-.price-gbp-8 {
-    position: absolute;
-    font-size: 20px;
-    bottom: 26px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: lighter;
-    background-color: #F9E9DB;
-
-}
-
-.price-usd-8 {
-    position: absolute;
-    font-size: 18px;
-    color: rgb(94, 94, 94);
-    bottom: 3px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: normal;
-    background-color: #F9E9DB;
-
-}
-
-.basket-box8 {
-    position: absolute;
-    height: 42px;
-    width: 62px;
-    background-color: #E7FEFF;
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-bottom-left-radius: 15px;
-    bottom: 97px;
-    left: -4px;
-
-}
-
-.plantpic8 {
-    position: absolute;
-    top: 0;
-    border: 5px solid #E7FEFF;
-    border-radius: 15px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-
-}
-
-/*------PLANT 8------*/
 
 .plantrow3-wrapper {
     position: relative;
@@ -903,289 +426,6 @@ a {
 }
 
 
-/*------PLANT 9------*/
-
-.shop-plant-9 {
-    position: relative;
-    padding-right: 80px;
-    height: 405px;
-    width: 299px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 15px;
-
-}
-
-.plant-title-9 {
-    position: absolute;
-    bottom: 34px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.2em;
-    background-color: #F9E9DB;
-
-
-}
-
-.price-gbp-9 {
-    position: absolute;
-    font-size: 20px;
-    bottom: 26px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: lighter;
-    background-color: #F9E9DB;
-
-}
-
-.price-usd-9 {
-    position: absolute;
-    font-size: 18px;
-    color: rgb(94, 94, 94);
-    bottom: 3px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: normal;
-    background-color: #F9E9DB;
-
-}
-
-.basket-box9 {
-    position: absolute;
-    height: 42px;
-    width: 62px;
-    background-color: #E7FEFF;
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-bottom-left-radius: 15px;
-    bottom: 97px;
-    left: -4px;
-
-}
-
-.plantpic9 {
-    position: absolute;
-    top: 0;
-    border: 5px solid #E7FEFF;
-    border-radius: 15px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-
-}
-
-/*------PLANT 9------*/
-
-/*------PLANT 10------*/
-
-.shop-plant-10 {
-    position: relative;
-    padding-right: 80px;
-    height: 405px;
-    width: 299px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 15px;
-
-}
-
-.plant-title-10 {
-    position: absolute;
-    bottom: 34px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.2em;
-    background-color: #F9E9DB;
-
-
-}
-
-.price-gbp-10 {
-    position: absolute;
-    font-size: 20px;
-    bottom: 26px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: lighter;
-    background-color: #F9E9DB;
-
-}
-
-.price-usd-10 {
-    position: absolute;
-    font-size: 18px;
-    color: rgb(94, 94, 94);
-    bottom: 3px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: normal;
-    background-color: #F9E9DB;
-
-}
-
-.basket-box10 {
-    position: absolute;
-    height: 42px;
-    width: 62px;
-    background-color: #F9E9DB;
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-bottom-left-radius: 15px;
-    bottom: 97px;
-    left: -4px;
-
-}
-
-.plantpic10 {
-    position: absolute;
-    top: 0;
-    border: 5px solid #F9E9DB;
-    border-radius: 15px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-
-}
-
-/*------PLANT 10------*/
-
-/*------PLANT 11------*/
-
-.shop-plant-11 {
-    position: relative;
-    padding-right: 80px;
-    height: 405px;
-    width: 299px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 15px;
-
-}
-
-.plant-title-11 {
-    position: absolute;
-    bottom: 34px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.2em;
-    background-color: #F9E9DB;
-
-
-}
-
-.price-gbp-11 {
-    position: absolute;
-    font-size: 20px;
-    bottom: 26px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: lighter;
-    background-color: #F9E9DB;
-
-}
-
-.price-usd-11 {
-    position: absolute;
-    font-size: 18px;
-    color: rgb(94, 94, 94);
-    bottom: 3px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: normal;
-    background-color: #F9E9DB;
-
-}
-
-.basket-box11 {
-    position: absolute;
-    height: 42px;
-    width: 62px;
-    background-color: #F9E9DB;
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-bottom-left-radius: 15px;
-    bottom: 97px;
-    left: -4px;
-
-}
-
-.plantpic11 {
-    position: absolute;
-    top: 0;
-    border: 5px solid #F9E9DB;
-    border-radius: 15px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-
-}
-
-/*------PLANT 11------*/
-
-/*------PLANT 12------*/
-
-.shop-plant-12 {
-    position: relative;
-    height: 405px;
-    width: 299px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 15px;
-
-}
-
-.plant-title-12 {
-    position: absolute;
-    bottom: 34px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.2em;
-    background-color: #F9E9DB;
-
-
-}
-
-.price-gbp-12 {
-    position: absolute;
-    font-size: 20px;
-    bottom: 26px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: lighter;
-    background-color: #F9E9DB;
-
-}
-
-.price-usd-12 {
-    position: absolute;
-    font-size: 18px;
-    color: rgb(94, 94, 94);
-    bottom: 3px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: normal;
-    background-color: #F9E9DB;
-
-}
-
-.basket-box12 {
-    position: absolute;
-    height: 42px;
-    width: 62px;
-    background-color: #E7FEFF;
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-bottom-left-radius: 15px;
-    bottom: 97px;
-    left: -4px;
-
-}
-
-.plantpic12 {
-    position: absolute;
-    top: 0;
-    border: 5px solid #E7FEFF;
-    border-radius: 15px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-
-}
-
-/*------PLANT 12------*/
-
 .plantrow4-wrapper {
     position: relative;
     display: block;
@@ -1196,290 +436,6 @@ a {
     justify-content: center;
 
 }
-
-
-/*------PLANT 13------*/
-
-.shop-plant-13 {
-    position: relative;
-    padding-right: 80px;
-    height: 405px;
-    width: 299px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 15px;
-
-}
-
-.plant-title-13 {
-    position: absolute;
-    bottom: 34px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.2em;
-    background-color: #F9E9DB;
-
-
-}
-
-.price-gbp-13 {
-    position: absolute;
-    font-size: 20px;
-    bottom: 26px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: lighter;
-    background-color: #F9E9DB;
-
-}
-
-.price-usd-13 {
-    position: absolute;
-    font-size: 18px;
-    color: rgb(94, 94, 94);
-    bottom: 3px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: normal;
-    background-color: #F9E9DB;
-
-}
-
-.basket-box13 {
-    position: absolute;
-    height: 42px;
-    width: 62px;
-    background-color: #E7FEFF;
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-bottom-left-radius: 15px;
-    bottom: 97px;
-    left: -4px;
-
-}
-
-.plantpic13 {
-    position: absolute;
-    top: 0;
-    border: 5px solid #E7FEFF;
-    border-radius: 15px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-
-}
-
-/*------PLANT 13------*/
-
-/*------PLANT 14------*/
-
-.shop-plant-14 {
-    position: relative;
-    padding-right: 80px;
-    height: 405px;
-    width: 299px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 15px;
-
-}
-
-.plant-title-14 {
-    position: absolute;
-    bottom: 34px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.2em;
-    background-color: #F9E9DB;
-
-
-}
-
-.price-gbp-14 {
-    position: absolute;
-    font-size: 20px;
-    bottom: 26px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: lighter;
-    background-color: #F9E9DB;
-
-}
-
-.price-usd-14 {
-    position: absolute;
-    font-size: 18px;
-    color: rgb(94, 94, 94);
-    bottom: 3px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: normal;
-    background-color: #F9E9DB;
-
-}
-
-.basket-box14 {
-    position: absolute;
-    height: 42px;
-    width: 62px;
-    background-color: #F9E9DB;
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-bottom-left-radius: 15px;
-    bottom: 97px;
-    left: -4px;
-
-}
-
-.plantpic14 {
-    position: absolute;
-    top: 0;
-    border: 5px solid #F9E9DB;
-    border-radius: 15px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-
-}
-
-/*------PLANT 14------*/
-
-/*------PLANT 15------*/
-
-.shop-plant-15 {
-    position: relative;
-    padding-right: 80px;
-    height: 405px;
-    width: 299px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 15px;
-
-}
-
-.plant-title-15 {
-    position: absolute;
-    bottom: 34px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.2em;
-    background-color: #F9E9DB;
-
-
-}
-
-.price-gbp-15 {
-    position: absolute;
-    font-size: 20px;
-    bottom: 26px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: lighter;
-    background-color: #F9E9DB;
-
-}
-
-.price-usd-15 {
-    position: absolute;
-    font-size: 18px;
-    color: rgb(94, 94, 94);
-    bottom: 3px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: normal;
-    background-color: #F9E9DB;
-
-}
-
-.basket-box15 {
-    position: absolute;
-    height: 42px;
-    width: 62px;
-    background-color: #F9E9DB;
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-bottom-left-radius: 15px;
-    bottom: 97px;
-    left: -4px;
-
-}
-
-.plantpic15 {
-    position: absolute;
-    top: 0;
-    border: 5px solid #F9E9DB;
-    border-radius: 15px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-
-}
-
-/*------PLANT 15------*/
-
-/*------PLANT 16------*/
-
-.shop-plant-16 {
-    position: relative;
-    height: 405px;
-    width: 299px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 15px;
-
-}
-
-.plant-title-16 {
-    position: absolute;
-    bottom: 34px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.2em;
-    background-color: #F9E9DB;
-
-
-}
-
-.price-gbp-16 {
-    position: absolute;
-    font-size: 20px;
-    bottom: 26px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: lighter;
-    background-color: #F9E9DB;
-
-}
-
-.price-usd-16 {
-    position: absolute;
-    font-size: 18px;
-    color: rgb(94, 94, 94);
-    bottom: 3px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: normal;
-    background-color: #F9E9DB;
-
-}
-
-.basket-box16 {
-    position: absolute;
-    height: 42px;
-    width: 62px;
-    background-color: #E7FEFF;
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-bottom-left-radius: 15px;
-    bottom: 97px;
-    left: -4px;
-
-}
-
-.plantpic16 {
-    position: absolute;
-    top: 0;
-    border: 5px solid #E7FEFF;
-    border-radius: 15px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-
-}
-
-/*------PLANT 16------*/
 
 
 
@@ -1658,4 +614,3 @@ input[type=text] {
     position: absolute;
     bottom: 20px;
 }
-
