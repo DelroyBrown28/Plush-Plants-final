@@ -12,17 +12,23 @@ body {
     width: 200px;
     display: flex;
     justify-content: center;
-    left: 80px;
+    left: 185px;
     margin-top: 55px;
     z-index: 2;
 
+}
+
+.store-logo {
+    position: absolute;
+    margin-top: 33px;
+    margin-left: 80px;
 }
 
 .home-btn-base {
     position: absolute;
     height: 50px;
     width: 53px;
-    background-color: #A1ED85;
+    background-color: rgb(119, 175, 99);
     left: 70px;
     display: flex;
     align-items: center;
@@ -41,7 +47,7 @@ body {
     position: absolute;
     height: 50px;
     width: 53px;
-    background-color: #A1ED85;
+    background-color: rgb(119, 175, 99);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -60,7 +66,7 @@ body {
     position: absolute;
     height: 50px;
     width: 53px;
-    background-color: #A1ED85;
+    background-color: rgb(119, 175, 99);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -125,7 +131,7 @@ a {
     height: 241px;
 }
 
-.store-signup-button {
+.store-subscribe-button {
     position: relative;
     float: right;
     display: flex;
@@ -146,10 +152,7 @@ a {
 
 }
 
-.store-signup-button:hover,
-.home-btn-base:hover,
-.plant-btn-base:hover,
-.contact-btn-base:hover {
+.store-subscribe-button:hover {
     animation-name: squeeze;
     cursor: pointer;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
@@ -158,13 +161,21 @@ a {
 
 }
 
-.store-signup-button:active,
-.home-btn-base:active,
-.plant-btn-base:active,
-.contact-btn-base:active {
+.store-subscribe-button:active {
     background-color: #7DF9C2;
 
 }
+
+.contact-btn-base:hover,
+.home-btn-base:hover,
+.plant-btn-base:hover {
+    animation-name: navcrush;
+    cursor: pointer;
+    background-color: #F9F871;
+
+}
+
+
 
 
 
@@ -197,6 +208,15 @@ a {
         transform: scaleY(1.0);
     }
 
+}
+
+@keyframes navcrush {
+    0% {transform: scaleY(1.0);}
+    20% {transform: scaleY(1.2);}
+    30% {transform: scaleY(1.0);}
+    40% {transform: scaleY(1.2);}
+    50% {transform: scaleY(1.0);}
+    60% {transform: scaleY(1.0);}
 }
 
 
@@ -322,7 +342,7 @@ a {
     justify-content: center;
     border-bottom-left-radius: 15px;
     bottom: 97px;
-    left: 0px;
+    left: -2px;
 
 }
 
@@ -367,7 +387,7 @@ a {
     bottom: 34px;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.2em;
-    background-color: #F9E9DB;
+    background-color: #F9F871;
 
 }
 
@@ -377,7 +397,7 @@ a {
     bottom: 26px;
     font-family: 'Open Sans', sans-serif;
     font-weight: lighter;
-    background-color: #F9E9DB;
+    background-color: #F9F871;
 
 }
 
@@ -388,16 +408,18 @@ a {
     bottom: 3px;
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
-    background-color: #F9E9DB;
+    background-color: #F9F871;
 
 }
 
 .backing-1 {
     position: absolute;
-    height: 250px;
+    height: 315px;
     width: 750px;
-    background-color: #D4D4D4;
+    background-color: #A1ED85;
     border-radius: 10px;
+    top: 0px;
+    box-shadow: 0px 3px 6px #00000029;
 
 
 }
