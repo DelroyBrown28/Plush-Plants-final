@@ -18,75 +18,57 @@ body {
 
 }
 
+.home-btn-base {
+    background-color: #A1ED85;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+
+
+.plantcare-btn-base,
+.contact-btn-base,
+.home-btn-base {
+    background-color: #A1ED85;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    margin-right: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0), 0 6px 6px rgba(0, 0, 0, 0.18);
+
+
+
+}
+
+.home-btn-icon {
+    margin-top: 4px;
+    height: 40px;
+}
+
+
+
+.plantcare-btn-icon {
+    margin-top: 4px;
+    height: 40px;
+}
+
+
+.contact-btn-icon {
+    margin-top: 4px;
+    height: 40px;
+}
+
+
+
 .store-logo {
     position: absolute;
     margin-top: 33px;
     margin-left: 80px;
-}
-
-.home-btn-base {
-    position: absolute;
-    height: 50px;
-    width: 53px;
-    background-color: rgb(119, 175, 99);
-    left: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 15px;
-    box-shadow: 0px 3px 6px #00000029;
-
-}
-
-.home-icon {
-    width: 42px;
-    height: 39px;
-}
-
-.contact-btn-base {
-    position: absolute;
-    height: 50px;
-    width: 53px;
-    background-color: rgb(119, 175, 99);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    right: 9px;
-    border-radius: 15px;
-    box-shadow: 0px 3px 6px #00000029;
-
-}
-
-.contact-icon {
-    width: 42px;
-    height: 39px;
-}
-
-.plant-btn-base {
-    position: absolute;
-    height: 50px;
-    width: 53px;
-    background-color: rgb(119, 175, 99);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    left: 0px;
-    border-radius: 15px;
-    box-shadow: 0px 3px 6px #00000029;
-
-}
-
-.plant-icon {
-    width: 42px;
-    height: 39px;
-}
-
-.home-btn-base,
-.plant-btn-base,
-.contact-btn-base {
-    animation-name: squeeze;
-    animation-duration: 1s;
-
 }
 
 a {
@@ -110,6 +92,7 @@ a {
     font-weight: normal;
 
 }
+
 
 .store-title {
     position: absolute;
@@ -143,11 +126,10 @@ a {
     width: 170px;
     border-radius: 5px;
     background-color: #A1ED85;
-    color: #000;
+    color: #fff;
     font-family: 'Bree Serif', serif;
     font-size: 1.3em;
     animation-duration: 1s;
-    overflow: hidden;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0), 0 6px 6px rgba(0, 0, 0, 0.18);
 
 }
@@ -161,17 +143,22 @@ a {
 
 }
 
-.store-subscribe-button:active {
-    background-color: #7DF9C2;
+.home-icon:active,
+.contact-icon:active,
+.plant-icon .store-subscribe-button:active {
+    box-shadow: none;
 
 }
 
 .contact-btn-base:hover,
 .home-btn-base:hover,
-.plant-btn-base:hover {
-    animation-name: navcrush;
+.plantcare-btn-base:hover {
+    animation-name: squeeze;
     cursor: pointer;
     background-color: #F9F871;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0), 0 6px 6px rgba(0, 0, 0, 0.18);
+
+
 
 }
 
@@ -211,12 +198,29 @@ a {
 }
 
 @keyframes navcrush {
-    0% {transform: scaleY(1.0);}
-    20% {transform: scaleY(1.2);}
-    30% {transform: scaleY(1.0);}
-    40% {transform: scaleY(1.2);}
-    50% {transform: scaleY(1.0);}
-    60% {transform: scaleY(1.0);}
+    0% {
+        transform: scaleY(1.0);
+    }
+
+    20% {
+        transform: scaleY(1.2);
+    }
+
+    30% {
+        transform: scaleY(1.0);
+    }
+
+    40% {
+        transform: scaleY(1.2);
+    }
+
+    50% {
+        transform: scaleY(1.0);
+    }
+
+    60% {
+        transform: scaleY(1.0);
+    }
 }
 
 
@@ -474,8 +478,7 @@ a {
 
 .fa-shopping-basket:active {
     font-size: 1.7em;
-    color: rgb(196, 240, 248);
-    color: radial-gradient(circle, rgba(196, 240, 248, 1) 47%, rgba(255, 226, 208, 1) 76%);
+    color: #F9F871;
 }
 
 @keyframes basket {
@@ -547,92 +550,135 @@ a {
     font-size: 1em;
 }
 
-.side-basket {
-    position: fixed;
-    height: 200px;
-    width: 150px;
-    bottom: 0px;
-    background-color: #fff;
+
+footer {
+    position: relative;
+    height: 375px;
     display: flex;
-    align-items: center;
     justify-content: center;
-    border-top-right-radius: 15px;
+    top: 219.78px;
 
 }
 
-.basket-text-wrapper {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.side-basket-text {
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    font-family: 'Bree Serif', serif;
-    font-size: 4em;
-    bottom: 55px;
-    margin: 0;
-
-}
-
-.itemsinbasket-text {
-    position: relative;
-    top: -10px;
-    margin: 0;
-    margin-left: 28.5%;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 0.8em;
-    width: 300px;
-
-
-}
-
-.side-basket-icon {
-    position: relative;
-    top: 40px;
-    right: 50%;
-    transform: translateX(50%);
-    animation-duration: 2s;
-    font-size: 2em;
-
-
-
-}
-
-.checkout-text {
-    position: absolute;
-    top: 90px;
-}
-
-form {
-    position: absolute;
-    width: 70%;
-    bottom: 85px;
-}
-
-input[type=text] {
-    position: absolute;
+.footer-contents {
+    background-color: #A1ED85;
+    height: 375px;
     width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    background-color: transparent;
+
+
+}
+
+.submit-email {
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    top: 185px;
     border: none;
-    border-radius: 50px;
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid #F9F871;
+    background-color: transparent;
+    transition: 0.3s;
 
 }
 
-.name-field {
-    position: absolute;
-    top: 20px;
+input[type=email] {
+    font-size: 1em;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
 }
 
-.email-field {
+::-webkit-input-placeholder {
+    position: relative;
+    text-align: center;
+    font-size: 1.5em;
+    color: rgba(0, 0, 0, 0.4);
+    font-family: 'Open Sans', sans-serif;
+    top: 3px;
+
+
+}
+
+::-moz-placeholder {
+    position: relative;
+    text-align: center;
+    font-size: 1.5em;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    top: 3px;
+
+}
+
+:-ms-input-placeholder {
+    position: relative;
+    text-align: center;
+    font-size: 1.5em;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    top: 3px;
+
+}
+
+.sub-and-save-text {
     position: absolute;
-    bottom: 20px;
+    top: 0;
+    margin-top: 50px;
+    font-family: 'Bree Serif', serif;
+    font-size: 2.8em;
+
+}
+
+.sub-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1em;
+    top: 0;
+    margin-top: 113px;
+
+}
+
+.form-signup-btn {
+    position: relative;
+    background-color: #F9F871;
+    top: 85px;
+    height: 50px;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-family: 'Bree Serif', serif;
+    font-size: 1.3em;
+    border-radius: 5px;
+    transition: 0.3s;
+
+}
+
+.form-signup-btn:hover {
+    cursor: pointer;
+    background-color: #59CF94;
+    color: #F9F871;
+    box-shadow: 0px 3px 6px #00000029;
+    width: 250px;
+
+
+}
+
+.form-signup-btn:active {
+    box-shadow: 0px 0px 0px;
+
+}
+
+input:focus {
+    outline: none;
+    border-bottom: 4px solid #F9F871;
+    border-radius: 5px;
+    width: 600px;
+    height: 40px;
+
+
+}
+
+.monster-lady {
+    position: absolute;
+    top: -147px;
+    left: 140px;
 }
