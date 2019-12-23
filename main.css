@@ -21,6 +21,10 @@ img.logo {
 
 }
 
+a {
+    text-decoration: none;
+}
+
 .subscribe-button {
     position: absolute;
     background-color: #F9F871;
@@ -48,6 +52,7 @@ img.logo {
     box-shadow: 0px 3px 6px #00000029;
 
 }
+
 .sign-up-button:hover {
     background-color: #F9F871;
     color: #59CF94;
@@ -147,10 +152,11 @@ img.logo {
 
 .sign-up-button {
     position: absolute;
-    top: 350px;
-    background-color: #59CF94;
     width: 190px;
     height: 50px;
+    
+    top: 350px;
+    background-color: #59CF94;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -159,6 +165,7 @@ img.logo {
     font-size: 1.5em;
     border-radius: 5px;
     transition: 0.3s;
+    z-index: 1;
 
 
 }
@@ -175,125 +182,60 @@ img.logo {
     top: 300px;
 }
 
-.social-wrapper {
-    position: relative;
-    top: 50px;
-    transform: translateX(-50px);
-    transition: 1s;
-    width: 5%;
+.socials {
+    position: absolute;
+    top: 350px;
+    margin-left: 20px;
+
+
 }
 
-.social-wrapper:hover {
-    transform: translateX(0px);
+.fa-twitter-square,
+.fa-facebook-square,
+.fa-instagram,
+.fa-pinterest-square {
+    font-size: 2.5em;
+    color: #AEF096;
+}
+
+.fa-twitter-square {
+    display: block;
+}
+
+.fa-pinterest-square {
+    display: block;
+    padding-top: 20px;
+
+}
+
+
+.fa-facebook-square {
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.fa-instagram:hover,
+.fa-twitter-square:hover,
+.fa-pinterest-square:hover,
+.fa-facebook-square:hover {
     cursor: pointer;
 }
 
-.social-box {
-    width: 100px;
-    height: 160px;
-    position: absolute;
-
+.fa-instagram:hover {
+    color: rgb(245, 133, 41);
+    color: linear-gradient(90deg, rgba(245, 133, 41, 1) 0%, rgba(254, 218, 119, 1) 13%, rgba(221, 42, 123, 1) 27%, rgba(129, 52, 175, 1) 44%, rgba(81, 91, 212, 0) 57%);
 }
 
 
-
-.icon-wrap {
-    position: relative;
-    background-color: grey;
-    left: 4px;
-    top: 15px;
-
+.fa-twitter-square:hover {
+    color: #00acee;
 }
 
-.fa-twitter {
-    position: absolute;
-    font-size: 2em;
-    color: #F9F871;
-    top: 12px;
-    left: 7px;
+.fa-pinterest-square:hover {
+    color: #c8232c;
 }
 
-.fa-instagram {
-    position: absolute;
-    font-size: 2em;
-    color: #F9F871;
-    top: 63px;
-    left: 7px;
-
-}
-
-.fa-facebook {
-    position: absolute;
-    font-size: 2em;
-    color: #F9F871;
-    top: 115px;
-    left: 5px;
-
-}
-
-.fa-share-alt {
-    position: absolute;
-    font-size: 2em;
-    color: #F9F871;
-    top: 80px;
-}
-
-.fa-share-alt {
-    position: absolute;
-    top: 67px;
-    left: 55px;
-    color: #000;
-    font-size: 1.5em;
-
-}
-
-img.socials-text-flash-1 {
-    position: absolute;
-    left: 40px;
-    bottom: 450px;
-    height: 20px;
-    transform: rotateZ(35deg);
-    opacity: 0;
-    animation-name: socials;
-    animation-duration: 0.6s;
-    animation-iteration-count: 1;
-    animation-delay: 4s;
-}
-
-img.socials-text-flash-2 {
-    position: absolute;
-    left: 70px;
-    height: 20px;
-    bottom: 550px;
-    opacity: 0;
-    animation-name: socials;
-    animation-duration: 0.6s;
-    animation-iteration-count: 1;
-    animation-delay: 3.5s;
-
-}
-
-img.socials-text-flash-3 {
-    position: absolute;
-    left: 70px;
-    bottom: 620px;
-    transform: rotateZ(-20deg);
-    height: 20px;
-    opacity: 0;
-    animation-name: socials;
-    animation-duration: 0.6s;
-    animation-iteration-count: 1;
-    animation-delay: 3s;
-
-}
-
-@keyframes socials {
-    from {
-        opacity: 1;
-    }
-
-    to {
-        opacity: 0;
-    }
-
+.fa-facebook-square:hover {
+    color: #3b5998;
 }
