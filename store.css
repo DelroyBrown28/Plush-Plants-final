@@ -6,70 +6,50 @@ body {
     overflow-x: hidden;
 }
 
-.nav-wrapper {
-    position: absolute;
-    height: 50px;
-    width: 200px;
-    display: flex;
-    justify-content: center;
-    left: 185px;
-    margin-top: 55px;
-    z-index: 2;
-
-}
-
-.home-btn-base {
-    background-color: #A1ED85;
-    height: 50px;
-    width: 50px;
-    display: flex;
-    justify-content: center;
-    border-radius: 8px;
-    margin-right: 15px;
-}
-
-
-.plantcare-btn-base,
-.contact-btn-base,
-.home-btn-base {
-    background-color: #A1ED85;
-    height: 50px;
-    width: 50px;
-    display: flex;
-    justify-content: center;
-    border-radius: 8px;
-    margin-right: 15px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0), 0 6px 6px rgba(0, 0, 0, 0.18);
-
-
-
-}
-
-.home-btn-icon {
-    margin-top: 4px;
-    height: 40px;
-}
-
-
-
-.plantcare-btn-icon {
-    margin-top: 4px;
-    height: 40px;
-}
-
-
-.contact-btn-icon {
-    margin-top: 4px;
-    height: 40px;
-}
-
-
 
 .store-logo {
     position: absolute;
-    margin-top: 33px;
-    margin-left: 80px;
+    top: 35px;
+    right: 923px;
+
 }
+
+.home-button {
+    position: absolute;
+    height: 90px;
+    width: 100px;
+    left: -30px;
+    top: -25px;
+    background-color: #A1ED85;
+    border-bottom-right-radius: 65px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0), 0 6px 6px rgba(0, 0, 0, 0.18);
+    transition: 0.3s;
+    color: #fff;
+
+}
+
+.fa-home {
+    position: absolute;
+    top: 35px;
+    left: 40px;
+    font-size: 2em;
+}
+
+.home-button:hover {
+    cursor: pointer;
+    height: 95px;
+    width: 105px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    background-color: #F9F871;
+    color: #A1ED85;
+    border: 3px solid #A1ED85;
+}
+
+.home-button:active {
+    box-shadow: none;
+}
+
+
 
 a {
     text-decoration: none;
@@ -79,6 +59,9 @@ a {
     position: relative;
     height: 700px;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .main-title {
@@ -86,8 +69,8 @@ a {
     margin: 0;
     font-family: 'Bree Serif', serif;
     font-size: 10.5em;
-    left: 348px;
     top: 148px;
+    left: 338px;
     color: #8D8D8D;
     font-weight: normal;
 
@@ -99,7 +82,7 @@ a {
     margin: 0;
     font-family: 'Bree Serif', serif;
     font-size: 10.5em;
-    right: 470px;
+    right: 337px;
     top: 275px;
     color: #B9B9B9;
     font-weight: normal;
@@ -108,7 +91,7 @@ a {
 
 .title-box {
     position: absolute;
-    left: 585px;
+    left: 580px;
     top: 233px;
     width: 700px;
     height: 241px;
@@ -120,8 +103,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 80px;
-    margin-top: 45px;
+    top: 300px;
     height: 50px;
     width: 170px;
     border-radius: 5px;
@@ -129,36 +111,23 @@ a {
     color: #fff;
     font-family: 'Bree Serif', serif;
     font-size: 1.3em;
-    animation-duration: 1s;
+    transition: 0.3s;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0), 0 6px 6px rgba(0, 0, 0, 0.18);
 
 }
 
 .store-subscribe-button:hover {
-    animation-name: squeeze;
     cursor: pointer;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     background-color: #F9F871;
+    color: #59CF94;
+    width: 200px;
 
 
 }
 
-.home-icon:active,
-.contact-icon:active,
-.plant-icon .store-subscribe-button:active {
+.store-subscribe-button:active {
     box-shadow: none;
-
-}
-
-.contact-btn-base:hover,
-.home-btn-base:hover,
-.plantcare-btn-base:hover {
-    animation-name: squeeze;
-    cursor: pointer;
-    background-color: #F9F871;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0), 0 6px 6px rgba(0, 0, 0, 0.18);
-
-
 
 }
 
@@ -644,7 +613,7 @@ input[type=email] {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #000;
+    color: #fff;
     font-family: 'Bree Serif', serif;
     font-size: 1.3em;
     border-radius: 5px;
