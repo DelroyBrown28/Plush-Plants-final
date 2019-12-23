@@ -1,0 +1,166 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/*------LEFT SCREEN CONTENTS------*/
+
+.leftscreen-wrap {
+    position: relative;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.green-gradient-bg {
+    height: 100%;
+    width: 100%;
+}
+
+.text-wrap {
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.say-hi-text {
+    position: absolute;
+    font-family: 'Bree Serif', serif;
+    font-weight: 100;
+    font-size: 6.2em;
+    margin: 0;
+    color: #fff;
+    top: 120px
+}
+
+.or-sign-up {
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 2em;
+    color: #fff;
+    opacity: 0.7;
+    bottom: 170px;
+    margin: 0;
+}
+
+.down-arrow {
+    position: absolute;
+    bottom: 120px;
+    animation-duration: 2s;
+}
+
+.down-arrow:hover {
+    animation-name: bounce;
+    cursor: pointer;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    5% {
+        transform: translateY(15%);
+    }
+
+    10% {
+        transform: translateY(0);
+    }
+
+    15% {
+        transform: translateY(15%);
+    }
+
+    20% {
+        transform: translateY(0);
+    }
+
+    25% {
+        transform: translateY(15%);
+    }
+
+    30% {
+        transform: translateY(0);
+    }
+
+    35% {
+        transform: translateY(15%);
+    }
+
+    40% {
+        transform: translateY(0);
+    }
+
+}
+
+.socials-box {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15%;
+    width: 30%;
+    bottom: 20px;
+}
+
+.follow-us-text {
+    font-size: 1.8em;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+
+
+
+}
+
+.fa-twitter-square,
+.fa-instagram,
+.fa-facebook-square {
+    position: absolute;
+    font-size: 2.3em;
+    bottom: 05px;
+    color: #fff;
+
+}
+
+.fa-instagram {
+    left: 70px;
+}
+
+.fa-facebook-square {
+    right: 70px;
+}
+
+.fa-twitter-square:hover,
+.fa-instagram:hover,
+.fa-facebook-square:hover {
+    cursor: pointer;
+}
+
+.fa-twitter-square:hover {
+    color: #00acee;
+}
+
+.fa-facebook-square:hover {
+    color: #3b5998;
+}
+
+.fa-instagram:hover {
+    color: rgb(131, 58, 180);
+    color: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 7%, rgba(252, 176, 69, 1) 19%);
+
+}
+
+/*------LEFT SCREEN CONTENTS------*/
+
+/*------RIGHT SCREEN CONTENTS------*/
+
