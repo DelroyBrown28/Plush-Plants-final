@@ -3,6 +3,7 @@ body {
     margin: 0;
     height: 100%;
     width: 100%;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -59,7 +60,6 @@ a {
 .down-arrow {
     position: absolute;
     bottom: 120px;
-
     right: 200px;
     animation-duration: 5s;
 }
@@ -67,6 +67,10 @@ a {
 .down-arrow:hover {
     animation-name: bounce;
     cursor: pointer;
+}
+
+.down-arrown:active {
+    bottom: 100px;
 }
 
 @keyframes bounce {
@@ -336,7 +340,7 @@ textarea:focus {
 }
 
 .submit-form-btn:hover,
-.submit-form-btn-btmleft:hover {
+.signup-form-btn-btmleft:hover {
     cursor: pointer;
     background-color: #AEF096;
     width: 200px;
@@ -345,7 +349,7 @@ textarea:focus {
 }
 
 .submit-form-btn:active,
-.submit-form-btn-btmleft:active {
+.signup-form-btn-btmleft:active {
     box-shadow: none;
 
 
@@ -385,6 +389,11 @@ textarea:focus {
 .home-button:active {
     box-shadow: none;
 }
+
+/*------RIGHT SCREEN CONTENTS------*/
+
+/*------BOTTOM LEFT SCREEN CONTENTS------*/
+
 
 #btm-leftscreen-wrap {
     position: relative;
@@ -473,7 +482,21 @@ input[type=password] {
 
 }
 
-.submit-form-btn-btmleft {
+#radio-btn, .terms {
+    position: absolute;
+    top: 253px;
+    left: 0;
+}
+
+.terms {
+    left: 30px;
+}
+
+.terms-green {
+    color: #40D524;
+}
+
+.signup-form-btn-btmleft {
     position: absolute;
     height: 50px;
     width: 170px;
@@ -490,6 +513,11 @@ input[type=password] {
 
 
 }
+
+/*------BOTTOM LEFT SCREEN CONTENTS------*/
+
+/*------BOTTOM RIGHT SCREEN CONTENTS------*/
+
 
 .btm-rightscreen-wrap {
     position: relative;
@@ -517,11 +545,12 @@ input[type=password] {
     position: absolute;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1.4em;
     color: #fff;
-    opacity: 0.7;
-    bottom: 170px;
+    opacity: 0.8;
+    bottom: 180px;
     margin: 0;
 
 }
 
+/*------BOTTOM RIGHT SCREEN CONTENTS------*/
