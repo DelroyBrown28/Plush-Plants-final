@@ -5,6 +5,10 @@ body {
     width: 100%;
 }
 
+a {
+    text-decoration: none;
+}
+
 /*------LEFT SCREEN CONTENTS------*/
 
 .leftscreen-wrap {
@@ -55,7 +59,9 @@ body {
 .down-arrow {
     position: absolute;
     bottom: 120px;
-    animation-duration: 2s;
+
+    right: 200px;
+    animation-duration: 5s;
 }
 
 .down-arrow:hover {
@@ -129,6 +135,7 @@ body {
     font-size: 2.3em;
     bottom: 05px;
     color: #fff;
+    transition: 0.3s;
 
 }
 
@@ -163,4 +170,358 @@ body {
 /*------LEFT SCREEN CONTENTS------*/
 
 /*------RIGHT SCREEN CONTENTS------*/
+
+.rightscreen-wrap {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    float: right;
+    bottom: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo {
+    position: absolute;
+    top: 40px;
+
+}
+
+.contact-blurb {
+    position: absolute;
+    font-size: 2.1em;
+    font-family: 'Bree Serif', serif;
+    opacity: 0.4;
+    line-height: 36px;
+    top: 272px;
+
+}
+
+.message-form {
+    position: relative;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.contact-blurb {
+    position: absolute;
+    top: 220px;
+}
+
+.first-name {
+    position: absolute;
+    border: none;
+    border-bottom: 1px solid #000;
+    width: 266px;
+    height: 35px;
+    left: 0;
+    bottom: 35px;
+
+}
+
+.last-name {
+    position: absolute;
+    border: none;
+    border-bottom: 1px solid #000;
+    width: 266px;
+    height: 35px;
+    right: 0;
+    bottom: 35px;
+
+}
+
+.email-address {
+    position: absolute;
+    border: none;
+    border-bottom: 1px solid #000;
+    width: 575px;
+    height: 35px;
+    top: 20px;
+
+}
+
+
+
+input[type=text] {
+    font-size: 1.5em;
+    text-align: center;
+
+}
+
+.first-name:focus,
+.last-name:focus,
+.email-address:focus,
+.password:focus,
+.first-name-btmleft:focus,
+.last-name-btmleft:focus,
+.email-address-btmleft,
+.re-type-password {
+    outline: none;
+}
+
+::-webkit-input-placeholder {
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    top: 3px;
+    opacity: 0.5;
+
+}
+
+::-moz-placeholder {
+    position: relative;
+    text-align: center;
+
+}
+
+:-ms-input-placeholder {
+    position: relative;
+    text-align: center;
+
+}
+
+.leave-message {
+    position: absolute;
+    display: block;
+    top: 103px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 1.2em;
+    left: 0;
+}
+
+
+textarea {
+    position: absolute;
+    height: 50px;
+    width: 550px;
+    top: 150px;
+    resize: none;
+    border-radius: 5px;
+    box-shadow: 0px 3px 6px #00000029;
+    font-family: 'Open Sans', sans-serif;
+    transition: 1s;
+    padding: 15px;
+
+
+}
+
+textarea:focus {
+    outline: none;
+    height: 170px;
+}
+
+
+.submit-form-btn {
+    position: absolute;
+    height: 50px;
+    width: 170px;
+    background-color: #F9F871;
+    top: 370px;
+    color: #fff;
+    font-family: 'Bree Serif', serif;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    transition: 0.3s;
+
+
+}
+
+.submit-form-btn:hover,
+.submit-form-btn-btmleft:hover {
+    cursor: pointer;
+    background-color: #AEF096;
+    width: 200px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+
+}
+
+.submit-form-btn:active,
+.submit-form-btn-btmleft:active {
+    box-shadow: none;
+
+
+}
+
+.home-button {
+    position: absolute;
+    height: 90px;
+    width: 100px;
+    left: -30px;
+    top: -25px;
+    background-color: #A1ED85;
+    border-bottom-right-radius: 65px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0), 0 6px 6px rgba(0, 0, 0, 0.18);
+    transition: 0.3s;
+    color: #fff;
+
+}
+
+.fa-home {
+    position: absolute;
+    top: 35px;
+    left: 40px;
+    font-size: 2em;
+}
+
+.home-button:hover {
+    cursor: pointer;
+    height: 95px;
+    width: 105px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    background-color: #F9F871;
+    color: #A1ED85;
+    border: 3px solid #A1ED85;
+}
+
+.home-button:active {
+    box-shadow: none;
+}
+
+#btm-leftscreen-wrap {
+    position: relative;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.signup-blurb {
+    position: absolute;
+    font-size: 2.1em;
+    font-family: 'Bree Serif', serif;
+    opacity: 0.4;
+    line-height: 36px;
+    top: 200px;
+
+}
+
+.email-address-btmleft {
+    position: absolute;
+    border: none;
+    border-bottom: 1px solid #000;
+    width: 575px;
+    height: 35px;
+    bottom: 35px;
+
+}
+
+.first-name-btmleft {
+    position: absolute;
+    border: none;
+    border-bottom: 1px solid #000;
+    width: 266px;
+    height: 35px;
+    left: 0;
+    top: 10px;
+
+}
+
+.last-name-btmleft {
+    position: absolute;
+    border: none;
+    border-bottom: 1px solid #000;
+    width: 266px;
+    height: 35px;
+    right: 0;
+    top: 10px;
+
+
+}
+
+input[type=password] {
+    font-size: 1.5em;
+    text-align: center;
+
+}
+
+
+
+
+.password {
+    position: absolute;
+    border: none;
+    border-bottom: 1px solid #000;
+    width: 575px;
+    height: 35px;
+    top: 100px;
+
+}
+
+.password:focus {
+    outline: none;
+
+}
+
+.re-type-password {
+    position: absolute;
+    border: none;
+    border-bottom: 1px solid #000;
+    width: 575px;
+    height: 35px;
+    top: 190px;
+
+}
+
+.submit-form-btn-btmleft {
+    position: absolute;
+    height: 50px;
+    width: 170px;
+    background-color: #F9F871;
+    top: 300px;
+    color: #fff;
+    font-family: 'Bree Serif', serif;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    transition: 0.3s;
+
+
+}
+
+.btm-rightscreen-wrap {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    float: right;
+    bottom: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.text-wrap-2 {
+    position: absolute;
+    height: 50%;
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.save-15-text {
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #fff;
+    opacity: 0.7;
+    bottom: 170px;
+    margin: 0;
+
+}
 
