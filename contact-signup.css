@@ -64,6 +64,46 @@ a {
     animation-duration: 5s;
 }
 
+.socials-box {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15%;
+    width: 30%;
+    bottom: 20px;
+}
+
+.follow-us-text {
+    font-size: 1.8em;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+
+}
+
+
+@media screen and (max-width: 1366px) {
+    .say-hi-text {
+        top: 40px;
+    }
+
+    .or-sign-up {
+        bottom: 180px;
+    }
+
+    .down-arrow {
+        right: 130px;
+    }
+
+    .socials-box {
+
+    }
+
+
+}
+
+
 .down-arrow:hover {
     animation-name: bounce;
     cursor: pointer;
@@ -72,6 +112,7 @@ a {
 .down-arrown:active {
     bottom: 100px;
 }
+
 
 @keyframes bounce {
     0% {
@@ -112,25 +153,6 @@ a {
 
 }
 
-.socials-box {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 15%;
-    width: 30%;
-    bottom: 20px;
-}
-
-.follow-us-text {
-    font-size: 1.8em;
-    color: #fff;
-    font-family: 'Open Sans', sans-serif;
-    margin: 0;
-
-
-
-}
 
 .fa-twitter-square,
 .fa-instagram,
@@ -327,7 +349,7 @@ textarea:focus {
     width: 170px;
     background-color: #F9F871;
     top: 370px;
-    color: #fff;
+    color: #59CF94;
     font-family: 'Bree Serif', serif;
     font-size: 1.5em;
     display: flex;
@@ -343,6 +365,7 @@ textarea:focus {
 .signup-form-btn-btmleft:hover {
     cursor: pointer;
     background-color: #AEF096;
+    color: #fff;
     width: 200px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 
@@ -501,8 +524,8 @@ input[type=password] {
     height: 50px;
     width: 170px;
     background-color: #F9F871;
-    top: 300px;
-    color: #fff;
+    top: 320px;
+    color: #59CF94;
     font-family: 'Bree Serif', serif;
     font-size: 1.5em;
     display: flex;
