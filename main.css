@@ -4,6 +4,7 @@ body {
     width: 100vw;
     margin: 0;
     padding: 0;
+    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,10 +13,11 @@ body {
 
 a {
     text-decoration: none;
+    padding: 0;
 }
 
 .center-wrap {
-    position: relative;
+    position: absolute;
     height: 80vh;
     width: 50vw;
     display: flex;
@@ -85,10 +87,88 @@ a {
 
 }
 
-.side-nav {
-    position: absolute;
-    left: 40px;
+.nav-wrap {
+    position: relative;
+    height: 150px;
+    width: 100vw;
+    top: 385px;
+
 }
+
+.contact-tab {
+    position: absolute;
+    background-color: #59CF94;
+    bottom: 0;
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    font-family: 'Bree Serif', serif;
+    color: #fff;
+    font-size: 1.3em;
+    transform: translateY(75px);
+    transition: 0.3s;
+    padding-top: 3px;
+
+}
+
+.plant-care-tab {
+    position: absolute;
+    background-color: #92D886;
+    bottom: 50px;
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    font-family: 'Bree Serif', serif;
+    color: #fff;
+    font-size: 1.3em;
+    transform: translateY(90px);
+    transition: 0.3s;
+    padding-top: 3px;
+
+}
+
+.shop-tab {
+    position: absolute;
+    background-color: #D6F586;
+    bottom: 0px;
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    font-family: 'Bree Serif', serif;
+    color: #fff;
+    font-size: 1.3em;
+    transition: 0.3s;
+    padding-top: 3px;
+
+}
+
+
+
+.shop-icon2,
+.plant-care-icon2,
+.contact-icon2 {
+    position: absolute;
+    height: 40px;
+    top: 40px;
+}
+
+.contact-tab:hover,
+.plant-care-tab:hover,
+.shop-tab:hover {
+    height: 150px;
+    cursor: pointer;
+    background-color: #F9F871;
+    color: #59CF94;
+    border-top: 3px solid #59CF94;
+    border-radius: 20px;
+    box-shadow: 0px 0px 6px #00000030;
+
+
+}
+
 
 .store-button,
 .plant-care-button,
@@ -108,15 +188,6 @@ a {
 }
 
 
-.plant-care-button {
-    margin-top: 20px;
-    margin-bottom: 20px;
-
-}
-
-.store-button:hover,
-.plant-care-button:hover,
-.contact-button:hover,
 .sign-up-button:hover,
 .shop-button:hover {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
@@ -124,24 +195,23 @@ a {
 
 }
 
-.store-button:active,
-.plant-care-button:active,
-.contact-button:active,
 .sign-up-button:active,
-.shop-button:active,
-.facebook-button:active,
-.twitter-button:active,
-.instagram-button:active {
+.shop-button:active {
     box-shadow: none;
 
 }
 
 .social-nav {
     position: absolute;
-    font-size: 2.5em;
-    bottom: 40px;
-    right: 40px;
+    font-size: 2em;
+    left: 40px;
+    top: 40px;
+    display: inline-block;
     color: #59CF94;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 
 
 }
@@ -150,22 +220,19 @@ a {
 .twitter-button,
 .instagram-button {
     transition: 0.3s;
-    height: 50px;
-    width: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 5px;
-    box-shadow: 0px 0px 6px #00000030;
-    background-color: #F9F87155;
+    border-radius: 3px;
+
 
 
 }
 
 
 .twitter-button {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 
 }
 
@@ -173,6 +240,6 @@ a {
 .facebook-button:hover,
 .twitter-button:hover,
 .instagram-button:hover {
-    background-color: #F9F871;
     cursor: pointer;
+
 }
