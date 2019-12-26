@@ -12,7 +12,7 @@ a {
 
 /*------LEFT SCREEN CONTENTS------*/
 
-.leftscreen-wrap {
+#top-leftscreen-wrap {
     position: relative;
     height: 100%;
     width: 50%;
@@ -64,6 +64,37 @@ a {
     animation-duration: 5s;
 }
 
+.back-to-top {
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.down-arrow-2 {
+    position: relative;
+    animation-duration: 5s;
+    width: 58.51px;
+    height: 29.12px;
+
+}
+
+.back-to-top-text {
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-weight: 100;
+    font-size: 2em;
+    top: 15px;
+
+
+}
+
+
 .socials-box {
     position: absolute;
     display: flex;
@@ -96,9 +127,7 @@ a {
         right: 130px;
     }
 
-    .socials-box {
-
-    }
+    .socials-box {}
 
 
 }
@@ -109,6 +138,12 @@ a {
     cursor: pointer;
 }
 
+.down-arrow-2:hover {
+    animation-name: bounce-2;
+    cursor: pointer;
+
+}
+
 .down-arrown:active {
     bottom: 100px;
 }
@@ -117,6 +152,7 @@ a {
 @keyframes bounce {
     0% {
         transform: translateY(0);
+        
     }
 
     5% {
@@ -145,6 +181,46 @@ a {
 
     35% {
         transform: translateY(15%);
+    }
+
+    40% {
+        transform: translateY(0);
+    }
+
+}
+
+@keyframes bounce-2 {
+    0% {
+        transform: translateY(0);
+        
+    }
+
+    5% {
+        transform: translateY(-15%);
+    }
+
+    10% {
+        transform: translateY(0);
+    }
+
+    15% {
+        transform: translateY(-15%);
+    }
+
+    20% {
+        transform: translateY(0);
+    }
+
+    25% {
+        transform: translateY(-15%);
+    }
+
+    30% {
+        transform: translateY(0);
+    }
+
+    35% {
+        transform: translateY(-15%);
     }
 
     40% {
@@ -505,7 +581,8 @@ input[type=password] {
 
 }
 
-#radio-btn, .terms {
+#radio-btn,
+.terms {
     position: absolute;
     top: 253px;
     left: 0;
@@ -564,6 +641,7 @@ input[type=password] {
     justify-content: center;
 
 }
+
 .save-15-text {
     position: absolute;
     font-family: 'Open Sans', sans-serif;
