@@ -32,4 +32,10 @@ The lading page is a simple design with a bold blurb explaining the sites intent
 
 #### Store Page
 
-The store page startswith a large bold title with a small sign up button underneath, again prompting the customer to sign up. A small 'Home' button at the top left will take you back to the landing page. Scrolling down you will see more links to social media sites before coming to the plants themselves.
+The store page starts with a large bold title with a small sign up button underneath, again prompting the customer to sign up. A small 'Home' button at the top left will take you back to the landing page. Scrolling down you will see more links to social media sites before coming to the plants themselves.
+
+![Store Page (top)](https://github.com/DelroyBrown28/Plush-Plants/blob/master/Store%20Page%20-%201.png)
+
+The plant names used are all Latin for a more "fancy" effect. The prices are all very high to keep along with the the theme of "plush Pltants" and "...elegant and sleek".
+
+![Store Page (plants)](https://github.com/DelroyBrown28/Plush-Plants/blob/master/Store%20Page%20-%202.png)
