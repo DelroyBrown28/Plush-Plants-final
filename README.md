@@ -73,6 +73,10 @@ I would ike to have the shopping baskets add to a sidebar checkout box, I unders
 
 All plant images come from [Unsplash](https://unsplash.com/), a free image sharing website, and [UnDraw](https://undraw.co/).
 
+## Testing
+
+## Deployment
+
 ### Aknowledgments
 
 I received inpiration for this project from the service provided by the [BloomBoxClub](https://bloomboxclub.com/).
