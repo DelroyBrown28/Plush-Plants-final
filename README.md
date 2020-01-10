@@ -75,4 +75,4 @@ All plant images come from [Unsplash](https://unsplash.com/), a free image shari
 
 ### Aknowledgments
 
-I received inpiratio for thisproject from the service provided by the [BloomBoxClub](https://bloomboxclub.com/).
+I received inpiration for this project from the service provided by the [BloomBoxClub](https://bloomboxclub.com/).
