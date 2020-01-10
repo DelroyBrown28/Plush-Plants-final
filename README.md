@@ -49,3 +49,9 @@ There is a sign up form at the bottom of the screen tempting the customer with a
 Sticking with the green theme, the contact page is split in to 2 sides, 1 side features the form to fill out with your name, last name and email address, and also an expanding box to leave a message for the team. Clicking submit will reveal a message saying "Sent!" letting the user know the message has been sent. On the left, a small message reading "Say hi. Or sign up below" has a small bouncing arrow underneath which when clicked will take you down to the customer sign up form.
 
 ![Contact Page](https://github.com/DelroyBrown28/Plush-Plants/blob/master/Contact%20Page.png)
+
+#### Sign Up Page
+
+The sign up page does the opposite of the contact page with the form on the left and a message reading "Sign up. Save 15% on your first order when you sign up" on the right. You can sign up with your emaail address, first and last name and a password that you willhae to enter twice to complete the form, a small radio button is featured to agree to the terms of service. The terms of service link will take you to a wikipedia article. You can then click "sign up" to reveal a message saying "Thanks!"
+
+![Sign Up Page](https://github.com/DelroyBrown28/Plush-Plants/blob/master/Sign%20Up%20Page.png)
