@@ -23,3 +23,7 @@ Here you can see the design for the Plush Plants website, including early landin
 ### Features
 
 I went for a green theme throughtout with bit of Yellow added here and there. I've placed buttons and links in appropriate places for ase of use.
+
+#### Landing page
+
+The lading page is a simple design with a bold blurb explaining the sites intent. There are buttons immediately directing you to the sign up form and store for ease of use.
