@@ -26,4 +26,6 @@ I went for a green theme throughtout with bit of Yellow added here and there. I'
 
 #### Landing page
 
-The lading page is a simple design with a bold blurb explaining the sites intent. There are buttons immediately directing you to the sign up form and store for ease of use.
+The lading page is a simple design with a bold blurb explaining the sites intent. There are buttons immediately directing you to the sign up form and store for ease of use. There are links to social media sites at the bottom of the page and another link at the top of the page to contact the team more directly.
+
+![Landing Page](https://github.com/DelroyBrown28/Plush-Plants/blob/master/Landing%20Page.png)
