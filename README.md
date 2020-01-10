@@ -65,3 +65,5 @@ I would ike to have the shopping baskets add to a sidebar checkout box, I unders
 - HTML5
 - CSS3
 - Javascript
+Small amount of Javascript used for the 'onclick' function on buttons.
+
