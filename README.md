@@ -67,3 +67,8 @@ I would ike to have the shopping baskets add to a sidebar checkout box, I unders
 - [Javascript](https://www.javascript.com/)
   - Small amount of Javascript used for the 'onclick' function on buttons.
 
+## Credits
+
+### images
+
+All plant images come from [Unsplash](https://unsplash.com/), a free image sharing website, and [UnDraw](https://undraw.co/).
