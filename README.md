@@ -59,3 +59,9 @@ The sign up page does the opposite of the contact page with the form on the left
 ### Feautres left to implement
 
 I would ike to have the shopping baskets add to a sidebar checkout box, I understand this is something I will learn as I progress through the course and would like to implement this in the future. I would also like to have the ability to receive real messages through the 'Contact Us' page message box. Thorugh tons of Googling I learnt that this can be done with Javascript but I still feel I need to progress through the course more for a better understanding before adding this feature.
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- Javascript
