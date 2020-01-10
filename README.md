@@ -11,7 +11,7 @@ The Plush Plant website is aimed at plant enthusiasts with deep pockets. The sit
 
 Here you can see the design for the Plush Plants website, including early landing page ideas. The project was first designed in Adobe XD.
 
-![Wireframe](https://github.com/DelroyBrown28/Plush-Plants/blob/master/Adobe%20screenshot.PNG)
+[Wireframe](https://github.com/DelroyBrown28/Plush-Plants/blob/master/Adobe%20screenshot.PNG)
 
 ### Wireframes
 [Landing page wireframes](https://github.com/DelroyBrown28/Plush-Plants/blob/master/Landing%20Pages.PNG)
