@@ -24,8 +24,12 @@ Here you can see the design for the Plush Plants website, including early landin
 
 I went for a green theme throughtout with bit of Yellow added here and there. I've placed buttons and links in appropriate places for ase of use.
 
-### - Landing page
+#### Landing page
 
 The lading page is a simple design with a bold blurb explaining the sites intent. There are buttons immediately directing you to the sign up form and store for ease of use. There are links to social media sites at the bottom of the page and another link at the top of the page to contact the team more directly.
 
 ![Landing Page](https://github.com/DelroyBrown28/Plush-Plants/blob/master/Landing%20Page.png)
+
+#### Store Page
+
+The store page startswith a large bold title with a small sign up button underneath, again prompting the customer to sign up. A small 'Home' button at the top left will take you back to the landing page. Scrolling down you will see more links to social media sites before coming to the plants themselves.
