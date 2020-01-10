@@ -43,3 +43,9 @@ The plant names used are all Latin for a more "fancy" effect. The prices are all
 There is a sign up form at the bottom of the screen tempting the customer with a 15% saving on your first order. clicking into the input field will cause the field to expand for typing longer email addresses, when theemial is entered, click "Sign up" to reveal a "Thank you!" message made using the 'onclick' Javascript function.
 
 ![Store Page (sign up form)](https://github.com/DelroyBrown28/Plush-Plants/blob/master/Store%20Page%20-%203.png)
+
+#### Contact/Sign Up Page
+
+Sticking with the green theme, the contact page is split in to 2 sides, 1 side features the form to fill out with your name, last name and email address, and also an expanding box to leave a message for the team. Clicking submit will reveal a message saying "Sent!" letting the user know the message has been sent. On the left, a small message reading "Say hi. Or sign up below" has a small bouncing arrow underneath which when clicked will take you down to the customer sign up form.
+
+![Contact Page](https://github.com/DelroyBrown28/Plush-Plants/blob/master/Contact%20Page.png)
