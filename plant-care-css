@@ -1,0 +1,789 @@
+body,
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    overflow-X: hidden;
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+/*--------HEAD CONTENTS--------*/
+
+.top-wrap {
+    background: #A1ED85;
+    position: relative;
+    height: 223px;
+    width: 1920px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-title {
+    font: lighter 7em "Bree Serif", serif;
+    position: absolute;
+    margin: 0;
+}
+
+.home-button {
+    background: #F9F871;
+    position: absolute;
+    height: 90px;
+    width: 100px;
+    left: -30px;
+    top: -25px;
+    border-bottom-right-radius: 65px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0), 0 6px 6px rgba(0, 0, 0, 0.18);
+    transition: 0.1s;
+    color: #A1ED85;
+}
+
+.fa-home {
+    position: absolute;
+    top: 35px;
+    left: 40px;
+    font-size: 2em;
+}
+
+.sub-banner {
+    position: absolute;
+    top: 223px;
+    margin: 0;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner {
+    position: absolute;
+    border-top: 5px solid #F9F871;
+}
+
+.sub-blurb {
+    font: 1.3em "Open Sans", sans-serif;
+    position: absolute;
+    text-align: center;
+    margin: 0;
+}
+
+/*--------HEAD CONTENTS--------*/
+
+/*--------PLANT WRAP 1--------*/
+
+.plant-1-wrap {
+    position: relative;
+    top: 260px;
+    display: flex;
+    justify-content: center;
+}
+
+.plant-1 {
+    position: relative;
+    right: 450px;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 15px;
+}
+
+.plantcare-title1 {
+    font: 100 2.5em "Bree Serif", serif;
+    position: absolute;
+    top: 0;
+    margin: 0;
+}
+
+.plantcare-para1 {
+    font: 1.1em "Open Sans", sans-serif;
+    position: absolute;
+    width: 684px;
+    height: 244px;
+    top: 50px;
+}
+
+.care-card-1 {
+    background: #F9F871;
+    position: relative;
+    width: 313px;
+    height: 313px;
+    border-radius: 10px;
+    left: 450px;
+    box-shadow: 0px 3px 6px #00000029;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.care-card1-text {
+    font: 1.1em "Open Sans", sans-serif;
+    position: absolute;
+    margin: 0;
+    top: 52px;
+}
+
+.xtoxic {
+    color: red;
+}
+
+.iamknownto-1 {
+    font: 1.1em "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+.bee-img {
+    position: absolute;
+    bottom: 85px;
+    left: 65px;
+}
+
+.bees-text {
+    position: absolute;
+    margin: 0;
+    bottom: 63px;
+    left: 78px;
+    font: 0.9em "Open Sans", sans-serif;
+}
+
+.bird-img {
+    position: absolute;
+    bottom: 85px;
+    margin-left: 5px;
+}
+
+.birds-text {
+    position: absolute;
+    margin: 0;
+    bottom: 63px;
+    margin-left: 5px;
+    font: 0.9em "Open Sans", sans-serif;
+}
+
+.insect-img {
+    position: absolute;
+    bottom: 85px;
+    right: 65px;
+}
+
+.insects-text {
+    position: absolute;
+    margin: 0;
+    bottom: 63px;
+    right: 60px;
+    font: 0.9em "Open Sans", sans-serif;
+}
+
+/*--------PLANT WRAP 1--------*/
+
+.line-1 {
+    position: absolute;
+    border-bottom: 4px solid #A1ED85;
+    height: 1px;
+    width: 1505px;
+    bottom: -59.5px;
+}
+
+.line-2 {
+    position: absolute;
+    border-bottom: 8px solid #A1ED85;
+    height: 1px;
+    width: 1505px;
+    bottom: -59.5px;
+}
+
+/*--------PLANT WRAP 2--------*/
+
+.plant-2-wrap {
+    position: relative;
+    top: 260px;
+    display: flex;
+    justify-content: center;
+    margin-top: 115.5px;
+}
+
+.plant-2 {
+    position: relative;
+    right: 450px;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 15px;
+}
+
+.plantcare-title2 {
+    font: 100 2.5em "Bree Serif", serif;
+    position: absolute;
+    top: 0;
+    margin: 0;
+}
+
+.plantcare-para2 {
+    font: 1.1em "Open Sans", sans-serif;
+    position: absolute;
+    width: 684px;
+    height: 244px;
+    top: 50px;
+}
+
+.care-card-2 {
+    background: #F9F871;
+    position: relative;
+    width: 313px;
+    height: 313px;
+    border-radius: 10px;
+    left: 450px;
+    box-shadow: 0px 3px 6px #00000029;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.care-card2-text {
+    font: 1.1em "Open Sans", sans-serif;
+    position: absolute;
+    margin: 0;
+    top: 52px;
+}
+
+.xtoxic {
+    color: red;
+}
+
+.iamknownto-2 {
+    font: 1.1em "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+.bee-img {
+    position: absolute;
+    bottom: 85px;
+    left: 65px;
+}
+
+.bees-text {
+    position: absolute;
+    margin: 0;
+    bottom: 63px;
+    left: 78px;
+    font: 0.9em "Open Sans", sans-serif;
+}
+
+.bird-img {
+    position: absolute;
+    bottom: 85px;
+    margin-left: 5px;
+}
+
+.birds-text {
+    position: absolute;
+    margin: 0;
+    bottom: 63px;
+    margin-left: 5px;
+    font: 0.9em "Open Sans", sans-serif;
+}
+
+.insect-img {
+    position: absolute;
+    bottom: 85px;
+    right: 65px;
+}
+
+.insects-text {
+    position: absolute;
+    margin: 0;
+    bottom: 63px;
+    right: 60px;
+    font: 0.9em "Open Sans", sans-serif;
+}
+
+/*--------PLANT WRAP 2--------*/
+
+/*--------PLANT WRAP 3--------*/
+
+.plant-3-wrap {
+    position: relative;
+    top: 260px;
+    display: flex;
+    justify-content: center;
+    margin-top: 115.5px;
+}
+
+.plant-3 {
+    position: relative;
+    right: 450px;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 15px;
+}
+
+.plantcare-title3 {
+    font: 100 2.5em "Bree Serif", serif;
+    position: absolute;
+    top: 0;
+    margin: 0;
+}
+
+.plantcare-para3 {
+    font: 1.1em "Open Sans", sans-serif;
+    position: absolute;
+    width: 684px;
+    height: 244px;
+    top: 50px;
+}
+
+.care-card-3 {
+    background: #F9F871;
+    position: relative;
+    width: 313px;
+    height: 313px;
+    border-radius: 10px;
+    left: 450px;
+    box-shadow: 0px 3px 6px #00000029;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.care-card3-text {
+    font: 1.1em "Open Sans", sans-serif;
+    position: absolute;
+    margin: 0;
+    top: 52px;
+}
+
+.xtoxic {
+    color: red;
+}
+
+.iamknownto-3 {
+    font: 1.1em "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+.bee-img {
+    position: absolute;
+    bottom: 85px;
+    left: 65px;
+}
+
+.bees-text {
+    position: absolute;
+    margin: 0;
+    bottom: 63px;
+    left: 78px;
+    font: 0.9em "Open Sans", sans-serif;
+}
+
+.bird-img {
+    position: absolute;
+    bottom: 85px;
+    margin-left: 5px;
+}
+
+.birds-text {
+    position: absolute;
+    margin: 0;
+    bottom: 63px;
+    margin-left: 5px;
+    font: 0.9em "Open Sans", sans-serif;
+}
+
+.insect-img {
+    position: absolute;
+    bottom: 85px;
+    right: 65px;
+}
+
+.insects-text {
+    position: absolute;
+    margin: 0;
+    bottom: 63px;
+    right: 60px;
+    font: 0.9em "Open Sans", sans-serif;
+}
+
+/*--------PLANT WRAP 3--------*/
+
+/*--------PLANT WRAP 4--------*/
+
+.plant-4-wrap {
+    position: relative;
+    top: 260px;
+    display: flex;
+    justify-content: center;
+    margin-top: 115.5px;
+}
+
+.plant-4 {
+    position: relative;
+    right: 450px;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 15px;
+}
+
+.plantcare-title4 {
+    font: 100 2.5em "Bree Serif", serif;
+    position: absolute;
+    top: 0;
+    margin: 0;
+}
+
+.plantcare-para4 {
+    font: 1.1em "Open Sans", sans-serif;
+    position: absolute;
+    width: 684px;
+    height: 244px;
+    top: 50px;
+}
+
+.care-card-4 {
+    background: #F9F871;
+    position: relative;
+    width: 313px;
+    height: 313px;
+    border-radius: 10px;
+    left: 450px;
+    box-shadow: 0px 3px 6px #00000029;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.care-card4-text {
+    font: 1.1em "Open Sans", sans-serif;
+    position: absolute;
+    margin: 0;
+    top: 52px;
+}
+
+.xtoxic {
+    color: red;
+}
+
+.iamknownto-4 {
+    font: 1.1em "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+.bee-img {
+    position: absolute;
+    bottom: 85px;
+    left: 65px;
+}
+
+.bees-text {
+    position: absolute;
+    margin: 0;
+    bottom: 63px;
+    left: 78px;
+    font: 0.9em "Open Sans", sans-serif;
+}
+
+.bird-img {
+    position: absolute;
+    bottom: 85px;
+    margin-left: 5px;
+}
+
+.birds-text {
+    position: absolute;
+    margin: 0;
+    bottom: 63px;
+    margin-left: 5px;
+    font: 0.9em "Open Sans", sans-serif;
+}
+
+.insect-img {
+    position: absolute;
+    bottom: 85px;
+    right: 65px;
+}
+
+.insects-text {
+    position: absolute;
+    margin: 0;
+    bottom: 63px;
+    right: 60px;
+    font: 0.9em "Open Sans", sans-serif;
+}
+
+/*--------PLANT WRAP 4--------*/
+
+/*--------PLANT WRAP 5--------*/
+
+.plant-5-wrap {
+    position: relative;
+    top: 260px;
+    display: flex;
+    justify-content: center;
+    margin-top: 115.5px;
+}
+
+.plant-5 {
+    position: relative;
+    right: 450px;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 15px;
+}
+
+.plantcare-title5 {
+    font: 100 2.5em "Bree Serif", serif;
+    position: absolute;
+    top: 0;
+    margin: 0;
+}
+
+.plantcare-para5 {
+    font: 1.1em "Open Sans", sans-serif;
+    position: absolute;
+    width: 684px;
+    height: 244px;
+    top: 50px;
+}
+
+.care-card-5 {
+    background: #F9F871;
+    position: relative;
+    width: 313px;
+    height: 313px;
+    border-radius: 10px;
+    left: 450px;
+    box-shadow: 0px 3px 6px #00000029;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.care-card5-text {
+    font: 1.1em "Open Sans", sans-serif;
+    position: absolute;
+    margin: 0;
+    top: 52px;
+}
+
+.xtoxic {
+    color: red;
+}
+
+.iamknownto-5 {
+    font: 1.1em "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+.bee-img {
+    position: absolute;
+    bottom: 85px;
+    left: 65px;
+}
+
+.bees-text {
+    position: absolute;
+    margin: 0;
+    bottom: 63px;
+    left: 78px;
+    font: 0.9em "Open Sans", sans-serif;
+}
+
+.bird-img {
+    position: absolute;
+    bottom: 85px;
+    margin-left: 5px;
+}
+
+.birds-text {
+    position: absolute;
+    margin: 0;
+    bottom: 63px;
+    margin-left: 5px;
+    font: 0.9em "Open Sans", sans-serif;
+}
+
+.insect-img {
+    position: absolute;
+    bottom: 85px;
+    right: 65px;
+}
+
+.insects-text {
+    position: absolute;
+    margin: 0;
+    bottom: 63px;
+    right: 60px;
+    font: 0.9em "Open Sans", sans-serif;
+}
+
+/*--------PLANT WRAP 5--------*/
+
+.footer-contents {
+    position: relative;
+    top: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a1ed85;
+    height: 375px;
+    width: 100%;
+
+}
+
+.footer-waves {
+    position: relative;
+    height: 300px;
+    width: 100%;
+}
+
+.sub-and-save {
+    position: absolute;
+    font-family: "Bree Serif", serif;
+    font-size: 2.5em;
+    margin: 0;
+    top: 85px;
+}
+
+.sub-text {
+    position: absolute;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1em;
+}
+
+footer {
+    position: relative;
+    height: 375px;
+    display: flex;
+    justify-content: center;
+    top: 219.78px;
+}
+
+
+.submit-email {
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    top: 200px;
+    border: none;
+    border-bottom: 2px solid #f9f871;
+    background-color: transparent;
+    transition: 0.1s;
+}
+
+input[type="email"] {
+    font-size: 1em;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+}
+
+::-webkit-input-placeholder {
+    position: relative;
+    text-align: center;
+    font-size: 1.5em;
+    color: rgba(0, 0, 0, 0.4);
+    font-family: "Open Sans", sans-serif;
+    top: 3px;
+}
+
+::-moz-placeholder {
+    position: relative;
+    text-align: center;
+    font-size: 1.5em;
+    color: #000;
+    font-family: "Open Sans", sans-serif;
+    top: 3px;
+}
+
+:-ms-input-placeholder {
+    position: relative;
+    text-align: center;
+    font-size: 1.5em;
+    color: #000;
+    font-family: "Open Sans", sans-serif;
+    top: 3px;
+}
+
+.sub-and-save-text {
+    position: absolute;
+    top: 0;
+    margin-top: 80px;
+    font-family: "Bree Serif", serif;
+    font-size: 2.7em;
+    font-weight: 500;
+}
+
+.sub-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.6em;
+    width: 80vw;
+    text-align: center;
+    top: 28px;
+    margin-top: 113px;
+}
+
+.form-signup-btn {
+    position: relative;
+    background-color: #f9f871;
+    top: 100px;
+    height: 50px;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: "Bree Serif", serif;
+    font-size: 1.3em;
+    border-radius: 5px;
+    transition: 0.1s;
+}
+
+.form-signup-btn:hover {
+    cursor: pointer;
+    background-color: #59cf94;
+    color: #f9f871;
+    box-shadow: 0px 3px 6px #00000029;
+    width: 250px;
+}
+
+.form-signup-btn:active {
+    box-shadow: 0px 0px 0px;
+}
+
+input:focus {
+    outline: none;
+    border-bottom: 4px solid #f9f871;
+    border-radius: 5px;
+    width: 600px;
+    height: 40px;
+}
+
+.monster-lady {
+    position: absolute;
+    top: -147px;
+    left: 140px;
+}
+
+
+/*--------HOVERS ETC.--------*/
+
+.home-button:hover {
+    background: #f9f871;
+    cursor: pointer;
+    height: 95px;
+    width: 105px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    color: #a1ed85;
+    border: 3px solid #a1ed85;
+}
+
+.home-button:active {
+    box-shadow: none;
+}
+
+/*--------HOVERS ETC.--------*/
