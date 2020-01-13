@@ -1,5 +1,5 @@
-html,
-body {
+body,
+html {
   height: 100vh;
   width: 100vw;
   margin: 0;
@@ -7,11 +7,11 @@ body {
   overflow: hidden;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none
 }
 
 .top-logo {
@@ -19,21 +19,16 @@ a {
   left: 40px;
   top: 30px;
   width: 180px;
-  height: 53px;
+  height: 53px
 }
 
-
-
-#contact-icon {
+.contact-icon {
   position: absolute;
   top: 15px;
   right: 30px;
   border-radius: 55px;
-  transition: 0.1s;
-
-
+  transition: .1s
 }
-
 
 .center-wrap {
   position: absolute;
@@ -42,38 +37,34 @@ a {
   top: 12vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center
 }
 
 .logo {
   position: absolute;
   top: 8vh;
-  height: 150px;
+  height: 150px
 }
 
 .main-blurb {
+  font: 100 1.1em/20px "Bree Serif", serif;
   position: absolute;
   margin: 0;
   top: 185px;
-  font-family: "Bree Serif", serif;
-  font-weight: 100;
-  text-align: center;
-  line-height: 20px;
-  font-size: 1.1em;
+  text-align: center
 }
 
 .sub-blurb {
+  font: lighter 1.3em "Open Sans", sans-serif;
   position: absolute;
   bottom: 25vh;
   text-align: center;
-  font-family: "Open Sans", sans-serif;
-  font-weight: lighter;
-  font-size: 1.3em;
-  display: none;
+  display: none
 }
 
 #shop-button,
 .sign-up-button {
+  font: 1em "Bree Serif", serif;
   position: relative;
   top: 3vh;
   height: 40px;
@@ -81,103 +72,95 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1em;
-  font-family: "Bree Serif", serif;
-  box-shadow: 0px 0px 6px #00000030;
+  box-shadow: 0 0 6px #00000030;
   border-radius: 5px;
-  transition: 0.1s;
+  transition: .1s
 }
 
 #shop-button {
-  background-color: #59cf94;
+  background: #59cf94;
   color: #fff;
-  margin-right: 10px;
+  margin-right: 10px
 }
 
 .sign-up-button {
-  background-color: #f9f871;
-  color: #59cf94;
+  background: #f9f871;
+  color: #59cf94
 }
-
 
 .nav-wrap {
   display: none;
   position: relative;
   height: 150px;
   width: 100vw;
-  top: 385px;
+  top: 385px
 }
 
 .contact-tab {
+  font: 1.3em "Bree Serif", serif;
+  background: #59cf94;
   position: absolute;
-  background-color: #59cf94;
   bottom: 0;
   height: 100px;
   width: 100vw;
   display: flex;
   justify-content: center;
-  font-family: "Bree Serif", serif;
   color: #fff;
-  font-size: 1.3em;
   transform: translateY(75px);
-  transition: 0.1s;
-  padding-top: 3px;
+  transition: .1s;
+  padding-top: 3px
 }
 
 .plant-care-tab {
+  font: 1.3em "Bree Serif", serif;
+  background: #92d886;
   position: absolute;
-  background-color: #92d886;
   bottom: 50px;
   height: 100px;
   width: 100vw;
   display: flex;
   justify-content: center;
-  font-family: "Bree Serif", serif;
   color: #fff;
-  font-size: 1.3em;
   transform: translateY(90px);
-  transition: 0.1s;
-  padding-top: 3px;
+  transition: .1s;
+  padding-top: 3px
 }
 
 .shop-tab {
+  font: 1.3em "Bree Serif", serif;
+  background: #d6f586;
   position: absolute;
-  background-color: #d6f586;
-  bottom: 0px;
+  bottom: 0;
   height: 100px;
   width: 100vw;
   display: flex;
   justify-content: center;
-  font-family: "Bree Serif", serif;
   color: #fff;
-  font-size: 1.3em;
-  transition: 0.1s;
-  padding-top: 3px;
+  transition: .1s;
+  padding-top: 3px
 }
 
-.shop-icon2,
+.contact-icon2,
 .plant-care-icon2,
-.contact-icon2 {
+.shop-icon2 {
   position: absolute;
   height: 40px;
-  top: 40px;
+  top: 40px
 }
 
-
-.store-button,
-.contact-button {
+.contact-button,
+.store-button {
   height: 70px;
   width: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 10px;
-  box-shadow: 0px 0px 6px #00000030;
+  box-shadow: 0 0 6px #00000030;
   border: 2px solid #f9f871;
-  transition: 0.1s;
-  overflow: hidden;
+  transition: .1s;
+  overflow: hidden
 }
-
 
 .social-nav {
   position: absolute;
@@ -187,183 +170,195 @@ a {
   color: #59cf94;
   display: flex;
   align-items: center;
-  justify-content: center;
-
+  justify-content: center
 }
 
-.facebook-button,
 #twitter-button,
+.facebook-button,
 .instagram-button {
-  transition: 0.1s;
+  transition: .1s;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 3px;
-  
+  border-radius: 3px
 }
 
 .fa-facebook-square,
-.fa-twitter-square,
-.fa-instagram {
-  font-size: 0.8em;
+.fa-instagram,
+.fa-twitter-square {
+  font-size: .8em
 }
 
 #twitter-button {
   margin-left: 10px;
-  margin-right: 10px;
+  margin-right: 10px
 }
 
-.facebook-button:hover,
 #twitter-button:hover,
+.facebook-button:hover,
 .instagram-button:hover {
-  cursor: pointer;
+  cursor: pointer
 }
 
-.shop-icon2,
+.contact-icon2,
 .plant-care-icon2,
-.contact-icon2 {
-  animation-duration: 1s;
+.shop-icon2 {
+  animation-duration: 1s
 }
 
-.shop-icon2:hover,
+.contact-icon2:hover,
 .plant-care-icon2:hover,
-.contact-icon2:hover {
-  animation-name: basket;
+.shop-icon2:hover {
+  animation-name: basket
 }
 
 @keyframes basket {
   0% {
-    transform: scale(1.1);
+    transform: scale(1.1)
   }
 
   2% {
-    transform: scale(1.2);
+    transform: scale(1.2)
   }
 
   4% {
-    transform: scale(1.1);
+    transform: scale(1.1)
   }
 
   6% {
-    transform: scale(1.2);
+    transform: scale(1.2)
   }
 
   8% {
-    transform: scale(1.1);
+    transform: scale(1.1)
   }
 
   10% {
-    transform: scale(1.2);
+    transform: scale(1.2)
   }
 
   12% {
-    transform: scale(1.1);
+    transform: scale(1.1)
   }
 
   14% {
-    transform: scale(1.2);
+    transform: scale(1.2)
   }
 }
 
-/*--------MEDIA QUERIES/BREAKPOINTS--------*/
+@media screen and (min-width:320PX) {
 
-
-@media screen and (min-width: 320PX) {
-
-  .top-logo {
-    display: none;
+  .top-logo,
+  .top-wave,
+  #facebook,
+  #instagram,
+  #twitter,
+  .desktop-social-nav,
+  .top-wave,
+  .plant-care-button {
+    display: none
   }
 
+
   .main-blurb {
-    width: 100vw;
+    width: 100vw
   }
 
   #shop-button,
   .sign-up-button {
-    top: 30px;
+    top: 30px
   }
 
-  #contact-icon {
+  .contact-icon {
     top: 492px;
-    height: 50px;
+    height: 50px
   }
 }
 
+@media screen and (min-width:375px) {
 
-@media screen and (min-width: 375px) {
+  .top-logo,
+  .top-wave,
+  #facebook,
+  #instagram,
+  #twitter,
+  .desktop-social-nav,
+  .top-wave,
+  .plant-care-button {
+    display: none
+  }
 
-  #contact-icon {
+  .contact-icon {
     top: 590px;
-    height: 50px;
+    height: 50px
   }
 
   #shop-button,
   .sign-up-button {
-    top: 10px;
+    top: 10px
   }
 
   .top-logo {
-    display: none;
+    display: none
   }
 
   .main-blurb {
-    width: 100vw;
+    width: 100vw
   }
 }
 
-@media screen and (min-width: 414px) {
+@media screen and (min-width:414px) {
 
-  .desktop-social-nav,
   #facebook,
   #instagram,
   #twitter,
+  .desktop-social-nav,
   .top-wave {
-    display: none;
+    display: none
   }
 
   #shop-button,
   .sign-up-button {
-    top: -20px;
+    top: -20px
   }
 
-  #contact-icon {
-    top: 650px;
+  .contact-icon {
+    top: 650px
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width:768px) {
 
-  .desktop-social-nav,
   #facebook,
   #instagram,
   #twitter,
+  .desktop-social-nav,
   .top-wave {
-    display: none;
+    display: none
   }
-
 
   .logo {
-    height: 165px;
+    height: 165px
   }
 
   .main-blurb {
     top: 240px;
     font-size: 2em;
-    line-height: 30px;
+    line-height: 30px
   }
 
   .sub-blurb {
     display: block;
     width: 90vw;
-    top: 30vh;
+    top: 30vh
   }
 
   .social-nav {
-    top: 100px;
+    top: 100px
   }
 
   .center-wrap {
-    top: 20vh;
+    top: 20vh
   }
 
   #shop-button,
@@ -371,90 +366,95 @@ a {
     width: 120px;
     height: 45px;
     font-size: 1.2em;
-    top: 2vh;
+    top: 2vh
   }
 }
 
-@media screen and (min-height: 812px) {
+@media screen and (min-height:812px) {
 
-  .desktop-social-nav,
   #facebook,
   #instagram,
   #twitter,
+  .desktop-social-nav,
   .top-wave {
-    display: none;
+    display: none
   }
-
 
   #shop-button,
   .sign-up-button {
-    top: -20px;
+    top: -20px
   }
 
   .main-blurb {
-    top: 195px;
+    top: 195px
   }
 
   .social-nav {
-    top: 450px;
+    top: 450px
   }
 
-  #contact-icon {
-    top: 735px;
+  .contact-icon {
+    top: 735px
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width:1024px) {
 
-  .desktop-social-nav,
   #facebook,
   #instagram,
   #twitter,
+  .desktop-social-nav,
   .top-wave {
-    display: none;
+    display: none
   }
 
   .logo {
     height: 230px;
-    top: 9vh;
+    top: 9vh
   }
 
   .main-blurb {
     top: 330px;
     font-size: 3em;
     line-height: 40px;
-    width: 50vw;
+    width: 50vw
   }
 
   #shop-button,
   .sign-up-button {
     top: 100px;
     height: 55px;
-    width: 160px;
+    width: 160px
   }
 
   .sub-blurb {
     display: block;
     width: 100vw;
-    top: 30.3vh;
+    top: 30.3vh
   }
 
-  #contact-icon {
-    top: 0;
+  .contact-icon {
+    top: 0
   }
 }
 
-@media screen and (min-width: 1080px) {
-  /*---FULL SCREEN DESKTOP---*/
-
+@media screen and (min-width:1920px) {
   .top-wave {
     position: absolute;
     top: 0;
-    display: block;
+    display: block
   }
 
   .social-nav {
-    display: none;
+    display: none
+  }
+
+  .plant-care-button {
+    position: absolute;
+    bottom: 27px;
+    left: 115px;
+    height: 55px;
+    display: block;
   }
 
   .desktop-social-nav {
@@ -462,67 +462,53 @@ a {
     bottom: 30px;
     right: 30px;
     font-size: 2em;
-    color: #59CF94;
+    color: #59cf94;
     width: 200px;
-    display: inline-block;
+    display: inline-block
   }
 
-  .fa-instagram,
   .fa-facebook-f,
+  .fa-instagram,
   .fa-twitter {
     margin: 10px;
     padding-left: 10px;
-    transition: 0.5s;
-
-
+    transition: .5s
   }
 
-
-
   .fa-facebook-f:hover,
-  .fa-twitter:hover,
-  .fa-instagram:hover {
-    cursor: pointer;
+  .fa-instagram:hover,
+  .fa-twitter:hover {
+    cursor: pointer
   }
 
   .fa-facebook-f:hover {
-    color: #3b5998;
-
+    color: #3b5998
   }
 
   .fa-twitter:hover {
-    color: #1da1f2;
-
-
+    color: #1da1f2
   }
 
   .fa-instagram:hover {
     background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-
-
+    -webkit-text-fill-color: transparent
   }
 
-
-
   .fa-facebook-f:hover #facebook {
-    display: block;
+    display: block
   }
 
   .fa-instagram:hover #instagram {
     display: block;
     background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-
+    -webkit-text-fill-color: transparent
   }
 
   .fa-twitter:hover #twitter {
-    display: block;
+    display: block
   }
-
-
 
   #facebook {
     position: absolute;
@@ -530,14 +516,12 @@ a {
     top: -70px;
     left: 45px;
     font-family: "Bree Serif", serif;
-    font-size: 0.7em;
+    font-size: .7em;
     background-color: #3b5998;
     padding: 5px;
     border-radius: 5px;
     color: #fff;
-    margin: 0;
-
-
+    margin: 0
   }
 
   #instagram {
@@ -546,13 +530,11 @@ a {
     top: -70px;
     left: 45px;
     font-family: "Bree Serif", serif;
-    font-size: 0.7em;
+    font-size: .7em;
     padding: 12px;
     border-radius: 5px;
     color: #000;
-    margin: 0;
-
-
+    margin: 0
   }
 
   #twitter {
@@ -561,135 +543,147 @@ a {
     top: -70px;
     left: 45px;
     font-family: "Bree Serif", serif;
-    font-size: 0.7em;
+    font-size: .7em;
     padding: 12px;
     border-radius: 5px;
     color: #1da1f2;
     letter-spacing: -1px;
-    margin: 0;
-
+    margin: 0
   }
 
-
   .top-logo {
-    display: block;
-
+    display: block
   }
 
   .logo {
     height: 175px;
-    top: 0vh;
+    top: 0;
     width: 200px;
-    height: 270px;
+    height: 270px
   }
 
-  #contact-icon {
-    top: 855px;
-    left: 30px;
+  .contact-icon {
+    top: 856px;
+    left: 30px
   }
-
-  .plant-care-button {
-    position: absolute;
-    bottom: -65px;
-    left: -365px;
-    height: 55px;
-  }
-
 
   #shop-button,
   .sign-up-button {
     top: 16vh;
     height: 55px;
     width: 175px;
-    font-size: 1.5em;
+    font-size: 1.5em
   }
 
   .main-blurb {
     font-size: 3em;
     line-height: 50px;
-    top: 27vh;
+    top: 27vh
   }
 
   .sub-blurb {
     display: block;
     top: 38vh;
-    font-size: 1.6em;
+    font-size: 1.6em
   }
 
   .social-nav {
     bottom: -400px;
-    left: 40px;
+    left: 40px
   }
 
   .facebook-button {
     height: 35px;
     width: 35px;
-    border: 1.5px solid #92D886;
-    border-radius: 10px;
-
+    border: 1.5px solid #92d886;
+    border-radius: 10px
   }
 
   #twitter-button {
     height: 35px;
     width: 35px;
-    border: 1.5px solid #92D886;
-    border-radius: 10px;
-
+    border: 1.5px solid #92d886;
+    border-radius: 10px
   }
 
   .instagram-button {
     height: 35px;
     width: 35px;
-    border: 1.5px solid #92D886;
-    border-radius: 10px;
-
+    border: 1.5px solid #92d886;
+    border-radius: 10px
   }
 
-
+  .contact-text {
+    position: absolute;
+    bottom: 100px;
+    left: 55px;
+    padding: 10px;
+    background-color: #59cf94;
+    border: 1.8px solid #f9f871;
+    border-radius: 3px;
+    font-size: 1.3em;
+    font-family: "Bree Serif", serif;
+    color: #fff;
+    opacity: 0
+  }
 
   .center-wrap {
-    top: auto;
+    top: auto
   }
 }
 
-/*--------MEDIA QUERIES/BREAKPOINTS--------*/
-
-
-
-
-
-
-/*--------HOVERS/ACTIVES ETC--------*/
-
-
-
-.sign-up-button:hover,
-#shop-button:hover {
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-  cursor: pointer;
+#shop-button:hover,
+.sign-up-button:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .19), 0 6px 6px rgba(0, 0, 0, .23);
+  cursor: pointer
 }
 
-#contact-icon:hover {
-  border: 3px solid #f9f871;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+.contact-icon,
+.plant-care-button {
+  animation-duration: .5s;
+  cursor: pointer
+}
+
+.contact-icon:hover,
+.plant-care-button:hover {
+  animation-name: shake;
+}
+
+.contact-icon:active,
+.plant-care-button:active {
+  animation-name: shake;
 
 }
 
-.sign-up-button:active,
+@keyframes shake {
+  0% {
+    transform: translateX(0)
+  }
+
+  10% {
+    transform: translateX(2%)
+  }
+
+  20% {
+    transform: translateX(-2%)
+  }
+
+  30% {
+    transform: translateX(2%)
+  }
+
+  40% {
+    transform: translateX(-2%)
+  }
+
+  50% {
+    transform: translateX(0)
+  }
+}
+
 #shop-button:active,
-#contact-icon:active {
+.contact-icon:active,
+.sign-up-button:active {
   box-shadow: none;
-  border: none;
+  border: none
 }
-
-#contact-box:hover {
-  cursor: pointer;
-  background-color: #A1ED85;
-  border-left: 5px solid #f9f871;
-  border-bottom: 5px solid #f9f871;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-
-
-}
-
-/*--------HOVERS/ACTIVES ETC--------*/
