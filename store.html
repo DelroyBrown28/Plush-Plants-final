@@ -5,95 +5,295 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="store.js" type="text/javascript"></script>
     <link rel="icon" type="image/png" href="/Logo.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <script src="store.js" type="text/javascript"></script>
     <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="contact-signup.css" type="text/css">
-    <title>Contact | Sign up</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="store.css" type="text/css">
+    <title>Plush Plant Store</title>
 </head>
 
 <body>
 
-    <!--------LEFT SCREEN CONTENTS-------->
-    <div id="top-leftscreen-wrap">
-        <img class="green-gradient-bg" src="/contact-imgs/Rectangle 100.png">
-        <div class="text-wrap">.
-            <h1 class="say-hi-text">Say hi.</h1>
-            <h2 class="or-sign-up">...Or sign up below</h2>
-            <a href="#btm-leftscreen-wrap">
-                <img class="down-arrow" src="/contact-imgs/iconmonstr-arrow-29.png">
-            </a>
-        </div>
-        <div class="socials-box">
-            <p class="follow-us-text">Follow us online!</p>
-            <i class="fab fa-twitter-square"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-facebook-square"></i>
-        </div>
+    <div id="store-header">
+
         <a href="/index.html">
             <div class="home-button">
                 <i class="fas fa-home"></i>
             </div>
         </a>
+
+        <a href="/index.html">
+            <div class="store-logo">
+                <img class="logo" src="/store-page-imgs/Group 177.png">
+            </div>
+        </a>
+
+        <a href="/contact-signup.html#btm-leftscreen-wrap">
+            <div class="store-subscribe-button">Sign up</div>
+        </a>
+
+        <h1 class="store-title">STORE</h1>
+        <img class="title-box" src="/store-page-imgs/Rectangle 19-2.png">
+        <h1 class="main-title">Plush Plants</h1>
+
     </div>
-    <!--------LEFT SCREEN CONTENTS-------->
 
-
-    <!--------RIGHT SCREEN CONTENTS-------->
-    <div class="rightscreen-wrap">
-        <img class="logo" src="/contact-imgs/Logo.png">
-        <p class="contact-blurb">Send us a message with your name and<br>
-            email address and we'll get back to you<br>
-            within 24 hours.</p>
-        <form class="message-form">
-            <input type="text" class="first-name" placeholder="First Name">
-            <input type="text" class="last-name" placeholder="Last Name">
-            <input type="text" class="email-address" placeholder="Email Address">
-            <div onclick="newFunction()" id="submit-form-btn">Submit</div>
-
-            <textarea></textarea>
-            <h2 class="leave-message">Leave us a message:</h2>
-        </form>
+    <div class="sub-blurb-box">
+        <p class="sub-blurb">Take a look through our wonderful range of wild exotic plants. You can find<br>
+            everything you'll need to know over in Plant Care Tips. We have plants to purify<br>
+            the air in your home and plants to help you relax after a long day.</p>
     </div>
-    <!--------RIGHT SCREEN CONTENTS-------->
 
-    <!--------BOTTOM LEFT SCREEN CONTENTS-------->
-    <div id="btm-leftscreen-wrap">
-        <img class="logo" src="/contact-imgs/Logo.png">
-        <p class="signup-blurb">We'll send you weekly updates on new<br>
-            products and secret discounts only<br>
-            available to our online subscribers</p>
-        <form class="message-form">
-            <input type="text" class="email-address-btmleft" placeholder="Email Address">
+    <div class="social-nav">
 
-            <input type="text" class="first-name-btmleft" placeholder="First Name">
-            <input type="text" class="last-name-btmleft" placeholder="Last Name">
-
-            <input type="password" class="password" placeholder="Enter password">
-            <input type="password" class="re-type-password" placeholder="Re-enter password">
-
-            <label class="terms" for="radio-btn">I agree to the following<a
-                    href="https://en.wikipedia.org/wiki/Terms_of_service" target="_blank"> <span
-                        class="terms-green">terms of
-                        service.</label></span></a>
-            <input type="radio" id="radio-btn">
-
-            <div id="signup-form-btn-btmleft" onclick="thirdFunction()">Sign up</div>
-        </form>
-    </div>
-    <!--------BOTTOM LEFT SCREEN CONTENTS-------->
-
-    <!--------BOTTOM RIGHT SCREEN CONTENTS-------->
-
-    <div class="btm-rightscreen-wrap">
-        <img class="green-gradient-bg" src="/contact-imgs/Rectangle 100.png">
-        <div class="text-wrap-2">.
-            <h1 class="say-hi-text">Sign up.</h1>
-            <h2 class="save-15-text">Save 15% on your first order when you sign up</h2>
+        <div class="icon-wrapper">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-pinterest"></i>
+            <i class="fab fa-facebook"></i>
         </div>
     </div>
-    <!--------BOTTOM RIGHT SCREEN CONTENTS-------->
+
+
+
+    <!------ALL PLANTS------>
+
+
+    <div class="plantrow1-wrapper">
+
+        <!------PLANT 1----->
+        <div class="shop-plant-1">
+            <div class="basket-box">
+                <i id="shop-basket" class="fas fa-shopping-basket" onclick="basketColor()"></i>
+            </div>
+            <p class="plant-title">Brevifolia Engelm</p>
+            <sub class="price-gbp">£509</sub>
+            <sub class="price-usd">$658.28</sub>
+            <img class="plantpic1 all-plant-pics" src="/store-page-imgs/shop-plant-1.png">
+        </div>
+        <!------PLANT 1----->
+
+        <!------PLANT 2----->
+
+        <div class="backing-1">.</div>
+
+
+        <div class="shop-plant-2">
+            <div class="basket-box">
+                <i id="shop-basket" class="fas fa-shopping-basket" onclick="basketColor()"></i>
+            </div>
+            <p class="plant-title">Alocasia lauterbachiana</p>
+            <sub class="price-gbp">£725</sub>
+            <sub class="price-usd">$937.63</sub>
+            <img class="plantpic2 all-plant-pics" src="/store-page-imgs/shop-plant-2.png">
+        </div>
+        <!------PLANT 2----->
+
+        <!------PLANT 3----->
+        <div class="shop-plant-3">
+            <div class="basket-box">
+                <i id="shop-basket" class="fas fa-shopping-basket" onclick="basketColor()"></i id="shop-basket">
+            </div>
+            <p class="plant-title">Sansevieria Cylindrica</p>
+            <sub class="price-gbp">£872.45</sub>
+            <sub class="price-usd">$1128.32</sub>
+            <img class="plantpic3 all-plant-pics" src="/store-page-imgs/shop-plant-3.png">
+        </div>
+        <!------PLANT 3----->
+
+        <!------PLANT 4----->
+        <div class="shop-plant-4">
+            <div class="basket-box">
+                <i id="shop-basket" class="fas fa-shopping-basket" onclick="basketColor()"></i id="shop-basket">
+            </div>
+            <p class="plant-title">Dracaena Marginata</p>
+            <sub class="price-gbp">£700</sub>
+            <sub class="price-usd">$905.30</sub>
+            <img class="plantpic4 all-plant-pics" src="/store-page-imgs/shop-plant-4.png">
+        </div>
+        <!------PLANT 4----->
+
+    </div>
+
+    <div class="plantrow2-wrapper">
+
+
+        <!------PLANT 5----->
+        <div class="shop-plant-5">
+            <div class="basket-box">
+                <i id="shop-basket" class="fas fa-shopping-basket" onclick="basketColor()"></i id="shop-basket">
+            </div>
+            <p class="plant-title">Euphorbia Lactea Cristata</p>
+            <sub class="price-gbp">£649.95</sub>
+            <sub class="price-usd">$840.57</sub>
+            <img class="plantpic5 all-plant-pics" src="/store-page-imgs/shop-plant-5.png">
+        </div>
+        <!------PLANT 5----->
+
+        <!------PLANT 6----->
+
+        <div class="backing-1">.</div>
+        <div class="shop-plant-6">
+            <div class="basket-box">
+                <i id="shop-basket" class="fas fa-shopping-basket" onclick="basketColor()"></i id="shop-basket">
+            </div>
+            <p class="plant-title">Pachira Aquatica</p>
+            <sub class="price-gbp">£385</sub>
+            <sub class="price-usd">$497.91</sub>
+            <img class="plantpic6 all-plant-pics" src="/store-page-imgs/shop-plant-6.png">
+        </div>
+        <!------PLANT 6----->
+
+        <!------PLANT 7----->
+        <div class="shop-plant-7">
+            <div class="basket-box">
+                <i id="shop-basket" class="fas fa-shopping-basket" onclick="basketColor()"></i id="shop-basket">
+            </div>
+            <p class="plant-title">Zamioculcas Zamiifolia</p>
+            <sub class="price-gbp">£1000</sub>
+            <sub class="price-usd">$1293.28</sub>
+            <img class="plantpic7 all-plant-pics" src="/store-page-imgs/shop-plant-7.png">
+        </div>
+        <!------PLANT 7----->
+
+        <!------PLANT 8----->
+        <div class="shop-plant-8">
+            <div class="basket-box">
+                <i id="shop-basket" class="fas fa-shopping-basket" onclick="basketColor()"></i id="shop-basket">
+            </div>
+            <p class="plant-title">Monstera Deliciosa</p>
+            <sub class="price-gbp">£725.50</sub>
+            <sub class="price-usd">$938.27</sub>
+            <img class="plantpic8 all-plant-pics" src="/store-page-imgs/shop-plant-8.png">
+        </div>
+        <!------PLANT 8----->
+
+    </div>
+
+    <div class="plantrow3-wrapper">
+
+
+        <!------PLANT 9----->
+        <div class="shop-plant-9">
+            <div class="basket-box">
+                <i id="shop-basket" class="fas fa-shopping-basket" onclick="basketColor()"></i id="shop-basket">
+            </div>
+            <p class="plant-title">Aurinia Saxatilis</p>
+            <sub class="price-gbp">£903</sub>
+            <sub class="price-usd">$1186.54</sub>
+            <img class="plantpic9 all-plant-pics" src="/store-page-imgs/shop-plant-11.png">
+        </div>
+        <!------PLANT 9----->
+
+        <!------PLANT 10----->
+
+        <div class="backing-1">.</div>
+        <div class="shop-plant-10">
+            <div class="basket-box">
+                <i id="shop-basket" class="fas fa-shopping-basket" onclick="basketColor()"></i id="shop-basket">
+            </div>
+            <p class="plant-title">Cornus Canadensis</p>
+            <sub class="price-gbp">£495.95</sub>
+            <sub class="price-usd">$651.68</sub>
+            <img class="plantpic10 all-plant-pics" src="/store-page-imgs/shop-plant-12.png">
+        </div>
+        <!------PLANT 10----->
+
+        <!------PLANT 11----->
+        <div class="shop-plant-11">
+            <div class="basket-box">
+                <i id="shop-basket" class="fas fa-shopping-basket" onclick="basketColor()"></i id="shop-basket">
+            </div>
+            <p class="plant-title">Fraxinus Americana</p>
+            <sub class="price-gbp">£1000</sub>
+            <sub class="price-usd">$1314.00</sub>
+            <img class="plantpic11 all-plant-pics" src="/store-page-imgs/shop-plant-13.png">
+        </div>
+        <!------PLANT 11----->
+
+        <!------PLANT 12----->
+        <div class="shop-plant-12">
+            <div class="basket-box">
+                <i id="shop-basket" class="fas fa-shopping-basket" onclick="basketColor()"></i id="shop-basket">
+            </div>
+            <p class="plant-title">Hibiscus Moscheutos</p>
+            <sub class="price-gbp">£855.75</sub>
+            <sub class="price-usd">$1124.46</sub>
+            <img class="plantpic12 all-plant-pics" src="/store-page-imgs/shop-plant-14.png">
+        </div>
+        <!------PLANT 12----->
+
+    </div>
+
+    <div class="plantrow4-wrapper">
+
+
+        <!------PLANT 13----->
+        <div class="shop-plant-13">
+            <div class="basket-box">
+                <i id="shop-basket" class="fas fa-shopping-basket" onclick="basketColor()"></i id="shop-basket">
+            </div>
+            <p class="plant-title">Kniphofia (Pineapple Series)</p>
+            <sub class="price-gbp">£977.52</sub>
+            <sub class="price-usd">$1284.46</sub>
+            <img class="plantpic13 all-plant-pics" src="/store-page-imgs/shop-plant-16.png">
+        </div>
+        <!------PLANT 13----->
+
+        <!------PLANT 14----->
+
+        <div class="backing-1">.</div>
+        <div class="shop-plant-14">
+            <div class="basket-box">
+                <i id="shop-basket" class="fas fa-shopping-basket" onclick="basketColor()"></i id="shop-basket">
+            </div>
+            <p class="plant-title">Echinacea Firebird</p>
+            <sub class="price-gbp">£1124.75</sub>
+            <sub class="price-usd">$1477.92</sub>
+            <img class="plantpic14 all-plant-pics" src="/store-page-imgs/shop-plant-17.png">
+        </div>
+        <!------PLANT 14----->
+
+        <!------PLANT 15----->
+        <div class="shop-plant-15">
+            <div class="basket-box">
+                <i id="shop-basket" class="fas fa-shopping-basket" onclick="basketColor()"></i id="shop-basket">
+            </div>
+            <p class="plant-title">Monarda didyma</p>
+            <sub class="price-gbp">£700</sub>
+            <sub class="price-usd">$919.80</sub>
+            <img class="plantpic15 all-plant-pics" src="/store-page-imgs/shop-plant-18.png">
+        </div>
+        <!------PLANT 15----->
+
+        <!------PLANT 16----->
+        <div class="shop-plant-16">
+            <div class="basket-box">
+                <i id="shop-basket" class="fas fa-shopping-basket" onclick="basketColor()"></i id="shop-basket">
+            </div>
+            <p class="plant-title">Ilex Verticillata</p>
+            <sub class="price-gbp">£355.99</sub>
+            <sub class="price-usd">$467.77</sub>
+            <img class="plantpic16 all-plant-pics" src="/store-page-imgs/shop-plant-19.png">
+        </div>
+        <!------PLANT 16----->
+
+    </div>
+
+    <!------ALL PLANTS------>
+
+    <footer>
+        <div class="footer-contents">
+            <p class="sub-and-save-text">Sign up and save 15% on your first order</p>
+            <p class="sub-text">Sign up for the Plush Plants newsletter for information on new products and plant care
+                tips</p>
+            <input type="email" class="submit-email" placeholder="Enter your email">
+            <div class="form-signup-btn" onclick="secondFunction ()" >Sign up</div>
+            <img class="monster-lady" src="/store-page-imgs/Ladywithmonster.png">
+        </div>
+    </footer>
+
 
 
 </body>
