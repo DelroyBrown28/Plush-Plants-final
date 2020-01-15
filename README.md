@@ -40,7 +40,7 @@ The plant names used are all Latin for a more "fancy" effect. The prices are all
 
 [Store Page (plants)](https://github.com/DelroyBrown28/Plush-Plants/blob/master/Store%20Page%20-%202.png)
 
-There is a sign up form at the bottom of the screen tempting the customer with a 15% saving on your first order. clicking into the input field will cause the field to expand for typing longer email addresses, when theemial is entered, click "Sign up" to reveal a "Thank you!" message made using the 'onclick' Javascript function.
+There is a sign up form at the bottom of the screen tempting the customer with a 15% saving on your first order. clicking into the input field will cause the field to expand for typing longer email addresses, when the emial is entered, click "Sign up" to reveal a "Thank you!" message made using the 'onclick' Javascript function.
 
 [Store Page (sign up form)](https://github.com/DelroyBrown28/Plush-Plants/blob/master/Store%20Page%20-%203.png)
 
