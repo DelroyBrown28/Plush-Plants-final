@@ -22,7 +22,7 @@ Here you can see the design for the Plush Plants website, including early landin
 
 ### Features
 
-I went for a green theme throughtout with bit of Yellow added here and there. I've placed buttons and links in appropriate places for ase of use.
+I went for a green theme throughtout with bits of Yellow added here and there. I've placed buttons and links in appropriate places for ease of use.
 
 #### Landing page
 
